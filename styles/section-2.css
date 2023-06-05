@@ -10,6 +10,35 @@ Events & Exec Board
     text-align: center;
 }
 
+.scrolling-events {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.event {
+    flex: 0 0 auto;
+}
+
+#event-1 {
+    box-shadow: 10px 10px #dfa4e4;
+}
+
+#event-2 {
+    box-shadow: 10px 10px #B1C7A5;
+}
+
+#event-3 {
+    box-shadow: 10px 10px #6F52D5;
+}
+
+.event img {
+    width: 412px;
+    height: 412px;
+    border-radius: 20px;
+    margin: 12px;
+}
+
 /** Executive Board**/
 
 .board {
