@@ -85,6 +85,13 @@ p{font-family: 'Roboto';
     justify-content: center;
     gap: 10px;
   }
+
+  div{
+    margin: 20px;
+    max-width: 421px;
+    max-height: 500px;
+    display: inline-block;
+}
 /*background
 arrows
 boxes around each person's card*/
