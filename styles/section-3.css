@@ -78,8 +78,13 @@ p{font-family: 'Roboto';
     border: 4px solid #78567B;
     border-radius: 15px;
 }
-
-
+/*social media logos*/
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
 /*background
 social media logos
 arrows
