@@ -1,0 +1,115 @@
+/** 
+Events & Exec Board 
+**/
+
+/** Past Events**/
+.events h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.scrolling-events {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.event {
+    flex: 0 0 auto;
+}
+
+#event-1 {
+    box-shadow: 10px 10px #dfa4e4;
+}
+
+#event-2 {
+    box-shadow: 10px 10px #B1C7A5;
+}
+
+#event-3 {
+    box-shadow: 10px 10px #6F52D5;
+}
+
+.event img {
+    width: 412px;
+    height: 412px;
+    border-radius: 20px;
+    margin: 12px;
+}
+
+/** Executive Board**/
+
+.board {
+    position: absolute;
+}
+
+.board p + p {
+    margin-top: -20px;
+}
+
+.board h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.b-member {
+    box-sizing:border-box;
+    display: inline-block;
+    width: 401px;
+    height: 521px;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 10px;
+}
+
+.b-member img {
+    width: 358px;
+    height: 327px;
+}
+
+.name {
+    color: #303030;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.position {
+    color: #78567B;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.one {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
+
+.two {
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.three {
+    border: 4px solid #446A60;
+    background-color: #9FF8E1;
+    box-shadow: -10px 10px #446A60;
+}
+
+.four {
+    border: 4px solid #446A60;
+    background-color: #9FF8E1;
+    box-shadow: -10px 10px #446A60;
+}
+
+.five {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
