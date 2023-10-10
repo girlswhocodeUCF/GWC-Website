@@ -1,0 +1,26 @@
+img.GWCLogo{
+   position: absolute;
+   width: 139px;
+   height: 133px;
+   left: 125px;
+   top:-5px;
+}
+
+.about{
+   width: 130px;
+   height: 77px;
+   left: 363px;
+   position:absolute;
+   top: 23px;
+   
+   font-family: 'Courier Prime';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 31px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-decoration-line: underline;
+   color: #303030;
+}
