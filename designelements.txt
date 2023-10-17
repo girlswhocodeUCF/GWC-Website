@@ -1,0 +1,30 @@
+FONTS:
+
+titles - Courier Prime
+paragraphs - Roboto
+
+COLORS:
+
+picture backgrounds (team members) 
+  1. Fill: #DFA4E4 & Stroke: #78567B
+  2. Fill: #CEEBA1 & Stroke: #656B5A
+  3. Fill: #9FF8E1 & Stroke: #446A60
+
+why join us boxes
+    light: #B070D8
+    dark: #6F52D5
+
+future projects board
+    inside: #F0DAC1
+    outside: #D1B799
+    strings: #FD2D2D
+
+background circles
+    purple: #C5B5DF
+    green: #CEEBA1
+    blue: #93EEF8
+
+socials section
+    1. #B070D8
+    2. #F1F1F1
+  
