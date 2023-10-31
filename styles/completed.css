@@ -8,7 +8,7 @@ img.GWCLogo{
 	left: 125px;
 	top:-5px;
  }
- 
+
  .about{
 	width: 130px;
 	height: 77px;
@@ -304,10 +304,13 @@ h3 {
 
 /* Past Events */
 .events h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', monospace;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 400;
     text-align: center;
+    padding-top: 1200px;
+    padding-left: 330px;
+
 }
 
 .scrolling-events {
@@ -461,8 +464,10 @@ p{font-family: 'Roboto';
     height: 300px;
     overflow: hidden;
     object-fit: cover;}
-
-.Card1{box-sizing: border-box;
+.webteam{
+    padding-top: 1300px;
+}
+.Card1{box-sizing:border-box;
     /*position: absolute;*/
     width: 401px;
     height: 521px;
