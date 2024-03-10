@@ -3,11 +3,11 @@ This is the repo for the GWC UCF Website
 ## Web Masters
 <div>
   <img src="https://github.com/Ayla-T.png" width="80px;"/>
-  &emsp;&ensp;
+  &emsp;
   <img src="https://github.com/rmai21.png" width="80px;"/>
   <br />
   <sub><a href="https://github.com/Ayla-T">Ayla Tristao</a></sub>
-   &emsp;&ensp;
+   &emsp;&emsp;
   <sub><a href="https://github.com/rmai21">Rajvi Maisuria</a></sub>
 </div>
 
