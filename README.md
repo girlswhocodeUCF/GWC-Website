@@ -56,3 +56,9 @@ This is the repo for the GWC UCF Website
 <a href="https://github.com/samsannchez"><img src="https://github.com/samsannchez.png" width="60px;"/></a>
 &ensp;
 <a href="https://github.com/sopgeo"><img src="https://github.com/sopgeo.png" width="60px;"/></a>
+&ensp;
+<a href="https://github.com/StephanyRondon"><img src="https://github.com/StephanyRondon.png" width="60px;"/></a>
+</br></br>
+<a href="https://github.com/whoislaurenm"><img src="https://github.com/whoislaurenm.png" width="60px;"/></a>
+&ensp;
+
