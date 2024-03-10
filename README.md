@@ -20,6 +20,7 @@ This is the repo for the GWC UCF Website
 
 ## Collaborators
 <a href="https://github.com/alysonfranco"><img src="https://github.com/alysonfranco.png" width="60px;"/></a>
-
+<a href="https://github.com/alysonfranco"><img src="https://github.com/alysonfranco.png" width="60px;"/></a>
+<a href="https://github.com/alysonfranco"><img src="https://github.com/alysonfranco.png" width="60px;"/></a>
 
 
