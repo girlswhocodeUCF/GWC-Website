@@ -21,8 +21,14 @@ This is the repo for the GWC UCF Website
 ## Collaborators
 <a href="https://github.com/alysonfranco"><img src="https://github.com/alysonfranco.png" width="60px;"/></a>
 &emsp;
-<a href="https://github.com/alysonfranco"><img src="https://github.com/alysonfranco.png" width="60px;"/></a>
+<a href="https://github.com/Amy621"><img src="https://github.com/Amy621.png" width="60px;"/></a>
 &emsp;
-<a href="https://github.com/alysonfranco"><img src="https://github.com/alysonfranco.png" width="60px;"/></a>
+<a href="https://github.com/Annabel-S"><img src="https://github.com/Annabel-S.png" width="60px;"/></a>
+&emsp;
+<a href="https://github.com/beeinkks"><img src="https://github.com/beeinkks.png" width="60px;"/></a>
+&emsp;
+<a href="https://github.com/cal-1103"><img src="https://github.com/cal-1103.png" width="60px;"/></a>
+&emsp;
+<a href="https://github.com/codedbypolina"><img src="https://github.com/codedbypolina.png" width="60px;"/></a>
 
 
