@@ -18,7 +18,7 @@ This is the repo for the GWC UCF Website
 
 
 
-## Collaborators
+## Web Developers
 <a href="https://github.com/alysonfranco"><img src="https://github.com/alysonfranco.png" width="60px;"/></a>
 &ensp;
 <a href="https://github.com/Amy621"><img src="https://github.com/Amy621.png" width="60px;"/></a>
