@@ -64,5 +64,5 @@ This is the repo for the GWC UCF Website
 
 ## Design 
 [<kbd> <br> Title <br> </kbd>][Link]
-[Link]: # 'https://www.figma.com/file/LstWuxLiqUQqx1IAH3m5CE/Girls-Who-Code-at-UCF?type=design&node-id=0-1&mode=design'
+[Link]: "https://www.figma.com/file/LstWuxLiqUQqx1IAH3m5CE/Girls-Who-Code-at-UCF?type=design&node-id=0-1&mode=design"
 
