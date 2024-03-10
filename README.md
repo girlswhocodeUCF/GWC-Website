@@ -7,7 +7,7 @@ This is the repo for the GWC UCF Website
   <img src="https://github.com/rmai21.png" width="80px;"/>
   <br />
   <sub><a href="https://github.com/Ayla-T">Ayla Tristao</a></sub>
-   &emsp;
+   &emsp;&ensp;
   <sub><a href="https://github.com/rmai21">Rajvi Maisuria</a></sub>
 </div>
 
