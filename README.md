@@ -62,3 +62,5 @@ This is the repo for the GWC UCF Website
 <a href="https://github.com/whoislaurenm"><img src="https://github.com/whoislaurenm.png" width="60px;"/></a>
 &ensp;
 
+## Design 
+[<kbd> <br> Figma File <br> </kbd>][[Link](https://www.figma.com/file/LstWuxLiqUQqx1IAH3m5CE/Girls-Who-Code-at-UCF?type=design&node-id=0-1&mode=design)https://www.figma.com/file/LstWuxLiqUQqx1IAH3m5CE/Girls-Who-Code-at-UCF?type=design&node-id=0-1&mode=design]
