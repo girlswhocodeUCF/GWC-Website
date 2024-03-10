@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+img.GWCLogo{
+	position: absolute;
+	width: 139px;
+	height: 133px;
+	left: 125px;
+	top:-5px;
+ }
+
+ .about{
+	width: 130px;
+	height: 77px;
+	left: 363px;
+	position:absolute;
+	top: 23px;
+	
+	font-family: 'Courier Prime';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 31px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #303030;
+ }
+
+/* Natigation */
+
+/* Picture Logo */
+.pic-logo {
+   width: 140px;
+   height: 120px;
+   margin-left: 110px;
+}
+
+a{
+   text-decoration: none;
+   color: #303030;
+   font-family: 'Courier Prime', monospace;
+   font-size: 28px;
+}
+
+#about {
+   position: absolute;
+   width: 130px;
+   height: 77px;
+   left: 390px;
+   top: 23px;
+
+   display: flex;
+   align-items: center;
+   text-decoration-line: underline;
+}
+
+#event {
+   position: absolute;
+   width: 231px;
+   height: 77px;
+   left: 520px;
+   top: 23px;
+
+   display: flex;
+   align-items: center;
+}
+
+#student-project {
+   position: absolute;
+   width: 276px;
+   left: 650px;
+   top: 45px;
+}
+
+#blog {
+   position: absolute;
+   width: 276px;
+   height: 77px;
+   left: 950px;
+   top: 45px;
+}
+
+#become-a-member{
+   position: absolute;
+   width: 330px;
+   height: 77px;
+   left: 1120px;
+   top: 45px;
+   font-style:italic;
+}
+
+/* Circle Color Area */
+
+.circle {
+   display: flex;
+   gap: 2em;
+   margin: 2em;
+}
+
+.purpleTopLeft {
+   position: absolute;
+   width: 509px;
+   height: 484.87px;
+   left: -130px;
+   top: 200px;
+   
+   background: rgba(197, 181, 223, 0.7);
+   filter: blur(110px);
+   transform: rotate(-44.52deg);
+}
+
+.blueRight {
+   position: absolute;
+   width: 618.75px;
+   height: 626.52px;
+   left: 860.38px;
+   top: 300px;
+   background: rgba(147, 238, 248, 0.5);
+   filter: blur(108.5px);
+   transform: rotate(-44.52deg);
+   border-radius: 50%;
+}
+
+.greenMiddle {
+   position: absolute;
+   width: 605.73px;
+   height: 613.33px;
+   left: -240px;
+   top: 981.68px;
+
+   background: rgba(206, 235, 161, 0.6);
+   filter: blur(108.5px);
+   transform: rotate(-44.52deg);
+   border-radius: 50%;
+}
+
+.purpleBottomLeft {
+   position: absolute;
+   width: 777.41px;
+   height: 740.55px;
+   left: 465px;
+   top: 1526.06px;
+   
+   background: rgba(197, 181, 223, 0.7);
+   filter: blur(108.5px);
+   transform: rotate(-44.52deg);                
+}
+
+hr{
+   position: absolute;
+   width: 1251px;
+   height: 0px;
+   left: 123px;
+   top: 119px;
+   border: 2px solid #78567B;
+}
+
+/* Girls Who Code at UCF description Section */
+
+h1 {
+
+   position: relative;
+   width: 573px;
+   height: 65px;
+   left: 160px;
+   font-family: 'Courier Prime', monospace;
+   font-size: 40px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #303030;
+}
+
+#paragraph {
+   position: absolute;
+   width: 573px;
+   height: 295px;
+   left: 150px;
+   top: 280px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+   color: #303030;
+
+}
+
+/* Group Picture Section */
+
+#group-pic {
+   box-sizing: border-box;
+   position: absolute;
+   width: 590px;
+   height: 374px;
+   left: 788px;
+   top: 222px;
+   border-radius: 5px;
+   filter: drop-shadow(25px 25px 0px #CEEBA1);
+}
+
+button{
+
+   border-radius: 15px;
+   position: absolute;
+   width: 250px;
+   height: 65px;
+   left: 290px;
+   top: 650px;
+   background: #B070D8;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: #F1F1F1;
+}
+
+/* Why Join Us Section */
+
+#WhyJoinUs {
+   position: absolute;
+   width: 573px;
+   height: 65px;
+   left: 461.56px;
+   top: 818px;
+   font-family: 'Courier Prime', monospace;
+   font-style: italic;
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 56px;
+   text-align: center;
+   color: #303030;
+}
+
+.checkbox {
+   color:#F1F1F1;
+   font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+   margin: 30px 30px;
+   width: 216.14px;
+   height: 70.22px;
+   top: 990.86px;
+   font-size: 22px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.box1{
+   position: absolute;
+   width: 290.02px;
+   height: 258.1px;
+   left: 115px;
+   top: 1000px;
+   filter: drop-shadow(-15px 15px 0px #DFA4E4);
+   background: #B070D8;
+   border-radius: 16px;
+}
+
+.two {
+   padding: 1px 20px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 19px;
+   line-height: 23px;
+   word-spacing: 3px;   
+}
+
+.box2 {
+   position: absolute;
+   width: 290.02px;
+   height: 258.1px;
+   left: 437.85px;
+   top: 1050px;
+   background: #6F52D5;
+   border-radius: 15px;
+   filter: drop-shadow(-15px 15px 0px #C5B5DF);
+}
+.box3 {
+   position: absolute;
+   width: 290.02px;
+   height: 258.1px;
+   left: 760.7px;
+   top: 1000px;
+   background: #B070D8;
+   border-radius: 15px;
+   filter: drop-shadow(-15px 15px 0px #DFA4E4);
+}
+
+.box4 {
+   position: absolute;
+   width: 290.02px;
+   height: 258.1px;
+   left: 1084.54px;
+   top: 1050px;
+   background: #6F52D5;
+   border-radius: 15px;
+   filter: drop-shadow(-15px 15px 0px #C5B5DF);
+}
+
+/* Events & Exec Board */
+
+/* Past Events */
+.events h1 {
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1200px;
+    padding-left: 330px;
+
+}
+
+.scrolling-events {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.event {
+    flex: 0 0 auto;
+}
+
+#event-1 {
+    box-shadow: 10px 10px #dfa4e4;
+}
+
+#event-2 {
+    box-shadow: 10px 10px #B1C7A5;
+}
+
+#event-3 {
+    box-shadow: 10px 10px #6F52D5;
+}
+
+.event img {
+    width: 412px;
+    height: 412px;
+    border-radius: 20px;
+    margin: 12px;
+}
+
+/** Executive Board**/
+
+.board {
+    position: absolute;
+}
+
+.board p + p {
+    margin-top: -20px;
+}
+
+.board h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.b-member {
+    box-sizing:border-box;
+    display: inline-block;
+    width: 401px;
+    height: 521px;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 10px;
+}
+
+.b-member img {
+    width: 358px;
+    height: 327px;
+}
+
+.name {
+    color: #303030;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.position {
+    color: #78567B;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.one {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
+
+.two {
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.three {
+    border: 4px solid #446A60;
+    background-color: #9FF8E1;
+    box-shadow: -10px 10px #446A60;
+}
+
+.four {
+    border: 4px solid #446A60;
+    background-color: #9FF8E1;
+    box-shadow: -10px 10px #446A60;
+}
+
+.five {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
+
+/* Section Title */
+h1{font-family: 'Courier Prime';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    color: #303030;
+}
+
+/*Names*/
+h2{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #303030;
+}
+
+/*Roles*/
+h3{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #656B5A;
+}
+
+/*Majors*/
+p{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #303030;
+}
+
+.pics{width: 300px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;}
+.webteam{
+    padding-top: 1300px;
+}
+.Card1{box-sizing:border-box;
+    /*position: absolute;*/
+    width: 401px;
+    height: 521px;
+    /*left: 98px;
+    top: 3538px; */
+    background: #CEEBA1;
+    border: 4px solid #656B5A;
+    border-radius: 15px;
+
+    margin: 20px;
+    max-width: 421px;
+    max-height: 500px;
+    display: inline-block;
+}
+
+.Card2{box-sizing: border-box;
+    /*position: absolute;*/
+    width: 401px;
+    height: 521px;
+    /*left: 545px;
+    top: 3538px;*/
+    background: #9FF8E1;
+    border: 4px solid #446A60;
+    border-radius: 15px;
+
+    margin: 20px;
+    max-width: 421px;
+    max-height: 500px;
+    display: inline-block;
+}
+
+.Card3{box-sizing: border-box;
+    /*position: absolute;*/
+    width: 401px;
+    height: 521px;
+    /*left: 994px;
+    top: 3538px;*/
+    background: #DFA4E4;
+    border: 4px solid #78567B;
+    border-radius: 15px;
+
+    margin: 20px;
+    max-width: 421px;
+    max-height: 500px;
+    display: inline-block;
+}
+/*social media logos*/
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+
+/*background
+arrows
+boxes around each person's card*/
+
