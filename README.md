@@ -52,3 +52,7 @@ This is the repo for the GWC UCF Website
 <a href="https://github.com/prdcr-gem"><img src="https://github.com/prdcr-gem.png" width="60px;"/></a>
 &ensp;
 <a href="https://github.com/rockbison1230"><img src="https://github.com/rockbison1230.png" width="60px;"/></a>
+&ensp;
+<a href="https://github.com/samsannchez"><img src="https://github.com/samsannchez.png" width="60px;"/></a>
+&ensp;
+<a href="https://github.com/sopgeo"><img src="https://github.com/sopgeo.png" width="60px;"/></a>
