@@ -30,5 +30,14 @@ This is the repo for the GWC UCF Website
 <a href="https://github.com/cal-1103"><img src="https://github.com/cal-1103.png" width="60px;"/></a>
 &emsp;
 <a href="https://github.com/codedbypolina"><img src="https://github.com/codedbypolina.png" width="60px;"/></a>
+&emsp;
+<a href="https://github.com/daizabethn"><img src="https://github.com/daizabethn.png" width="60px;"/></a>
+&emsp;
+<a href="https://github.com/hemkan"><img src="https://github.com/hemkan.png" width="60px;"/></a>
+&emsp;
+<a href="https://github.com/lindsey-nielsen"><img src="https://github.com/lindsey-nielsen.png" width="60px;"/></a>
+&emsp;
+<a href="https://github.com/lykny10"><img src="https://github.com/lykny10.png" width="60px;"/></a>
+
 
 
