@@ -12,7 +12,7 @@ This is the repo for the GWC UCF Website
   <sub><a href="https://github.com/Ayla-T">Ayla Tristao</a></sub>
   &emsp;&emsp;
   <sub><a href="https://github.com/rmai21">Rajvi Maisuria</a></sub>
-  &emsp;&emsp;
+  &emsp;
   <sub><a href="https://github.com/ca764763">Cassandra Alvarez</a></sub>
 </div>
 
