@@ -30,20 +30,25 @@ This is the repo for the GWC UCF Website
 <a href="https://github.com/cal-1103"><img src="https://github.com/cal-1103.png" width="60px;"/></a>
 &ensp;
 <a href="https://github.com/codedbypolina"><img src="https://github.com/codedbypolina.png" width="60px;"/></a>
-&emsp;
+&ensp;
 <a href="https://github.com/daizabethn"><img src="https://github.com/daizabethn.png" width="60px;"/></a>
-&emsp;
+&ensp;
 <a href="https://github.com/hemkan"><img src="https://github.com/hemkan.png" width="60px;"/></a>
-&emsp;
+&ensp;
 <a href="https://github.com/lindsey-nielsen"><img src="https://github.com/lindsey-nielsen.png" width="60px;"/></a>
-&emsp;
+&ensp;
 <a href="https://github.com/lykny10"><img src="https://github.com/lykny10.png" width="60px;"/></a>
 </br></br>
 <a href="https://github.com/miapia333"><img src="https://github.com/miapia333.png" width="60px;"/></a>
-&emsp;
+&ensp;
 <a href="https://github.com/murphyrjessica"><img src="https://github.com/murphyrjessica.png" width="60px;"/></a>
-&emsp;
+&ensp;
 <a href="https://github.com/naomi-mbw12"><img src="https://github.com/naomi-mbw12.png" width="60px;"/></a>
-&emsp;
+&ensp;
 <a href="https://github.com/nKharisma"><img src="https://github.com/nKharisma.png" width="60px;"/></a>
-
+&ensp;
+<a href="https://github.com/pj0430"><img src="https://github.com/pj0430.png" width="60px;"/></a>
+&ensp;
+<a href="https://github.com/prdcr-gem"><img src="https://github.com/prdcr-gem.png" width="60px;"/></a>
+&ensp;
+<a href="https://github.com/rockbison1230"><img src="https://github.com/rockbison1230.png" width="60px;"/></a>
