@@ -7,7 +7,7 @@ This is the repo for the GWC UCF Website
   <img src="https://github.com/samsannchez.png" width="80px;"/>
   <br />
   <sub><a href="https://github.com/Ayla-T">Ayla Tristao</a></sub>
-   &ensp;
+   &emsp;
   <sub><a href="https://github.com/samsannchez">Samantha Sanchez</a></sub>
 </div>
 ## Collaborators
