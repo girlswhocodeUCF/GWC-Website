@@ -55,16 +55,16 @@ a{
    top: 45px;
 }
 
-#blog {
+#gallery {
    position: absolute;
    width: 276px;
    height: 77px;
    left: 950px;
    top: 45px;
-   text-decoration-line: underline;
+   /* text-decoration-line: underline; */
 }
 
-#become-a-member{
+#faq{
    position: absolute;
    width: 330px;
    height: 77px;
