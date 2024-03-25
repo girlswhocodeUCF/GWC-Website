@@ -56,7 +56,7 @@ a{
   text-decoration-line: underline;
 }
 
-#blog {
+#gallery {
    position: absolute;
    width: 276px;
    height: 77px;
@@ -64,7 +64,7 @@ a{
    top: 45px;
 }
 
-#become-a-member{
+#faq{
    position: absolute;
    width: 330px;
    height: 77px;
