@@ -19,6 +19,10 @@ img.GWCLogo{
    margin-left: 110px;
 }
 
+.posts {
+   padding-bottom: 80px;
+ }
+
  nav a{
    text-decoration: none;
    color: #303030;
