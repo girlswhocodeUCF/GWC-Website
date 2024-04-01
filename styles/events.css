@@ -19,7 +19,7 @@ img.GWCLogo{
    margin-left: 110px;
 }
 
-a{
+ nav a{
    text-decoration: none;
    color: #303030;
    font-family: 'Courier Prime', monospace;
@@ -185,8 +185,21 @@ button{
    margin: auto;
 }
 
+button a{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: #F1F1F1;
+   text-decoration: none;
+}
+
 
 footer{
    margin-top: 100px;
    align-content: center;
+}
+
+footer a{
+   text-decoration: none;
+   color: #303030;
+   font-family: 'Courier Prime', monospace;
 }
