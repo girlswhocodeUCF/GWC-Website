@@ -143,48 +143,37 @@ hr{
 
 h1 {
 
-   position: relative;
-   left: 25%;
    font-family: 'Courier Prime', monospace;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
    font-size: 40px;
-   display: flex;
-   align-items: center;
    text-align: center;
    color: #303030;
 }
 
-#paragraph {
-   position: absolute;
-   width: 573px;
-   height: 295px;
-   left: 150px;
-   top: 280px;
-   font-family: 'Roboto', sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 23px;
+h2 {
+   font-family: 'Courier Prime', monospace;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-size: 30px;
+   text-align: center;
    color: #303030;
-
+   font-style: italic;
 }
 
-/* Group Picture Section */
-
-#group-pic {
-   box-sizing: border-box;
-   position: absolute;
-   width: 590px;
-   height: 374px;
-   left: 788px;
-   top: 222px;
-   border-radius: 5px;
-   filter: drop-shadow(25px 25px 0px #CEEBA1);
+p{
+   font-family: 'Courier Prime', monospace;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-size: 20px;
+   font-style: italic;
 }
 
 button{
-
    border-radius: 15px;
-   position: absolute;
    width: 250px;
    height: 65px;
    left: 290px;
@@ -193,5 +182,11 @@ button{
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
    color: #F1F1F1;
+   margin: auto;
 }
 
+
+footer{
+   margin-top: 100px;
+   align-content: center;
+}
