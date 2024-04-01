@@ -9,6 +9,9 @@ img.GWCLogo{
 	top:-5px;
  }
 
+ body {
+   overflow-x: hidden;
+ }
 
 /* Natigation */
 
@@ -64,7 +67,7 @@ a{
    top: 45px;
 }
 
-#faq{
+#faq {
    position: absolute;
    width: 330px;
    height: 77px;
@@ -194,3 +197,132 @@ button{
    font-size: 18px;
    color: #F1F1F1;
 }
+
+.semester-title {
+   font-size: 30pt;
+   text-align: center;
+   font-family: 'Courier Prime', monospace;
+   font-style: italic;
+}
+
+.project {
+   display: flex;
+   margin-top: 100px;
+}
+
+.project-img {
+   width: 40%;
+   position: relative;
+   justify-content: center;
+   display: flex;
+}
+
+img {
+   height: 350px;
+   width: 350px;
+   z-indeX: 99;
+}
+
+.img-background {
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   background-color: #6f52d5;
+   z-index: 0;
+   transform: translate(10px, 10px);
+   border-radius: 10px;
+}
+
+.project-desc {
+   width: 50%;
+   text-align: center;
+   font-family: 'Courier Prime', monospace;
+   font-size: 18pt;
+   display: flex;
+   flex-direction: column;
+   height: 350px;
+   justify-content: space-between;
+   z-index: 999;
+}
+
+.project-link a{
+   text-decoration: underline;
+   font-size: 16pt;
+   color: black;
+   font-family: 'Courier Prime', monospace;
+}
+
+.future-projects-title {
+   margin-top: 6em;
+   font-size: 30pt;
+   text-align: center;
+   font-family: 'Courier Prime', monospace;
+   position: relative;
+   z-index: 999;
+}
+
+.pin-board {
+   display: flex;
+   align-items: center;
+}
+
+.board-back {
+   position: relative;
+   width: 80%;
+   height: 1500px;
+   background-color: #c69a68;
+   left: 10%;
+   margin-top: 12em;
+   border-radius: 4%;
+}
+
+.board-front {
+   position: absolute;
+   width: 70%;
+   height: 1200px;
+   background-color: #f6d3a8;
+   left: 15%;
+   margin-top: 12em;
+}
+
+.board-front img {
+   position: relative;
+   z-index: 99;
+   height: 350px;
+   width: 350px;
+}
+
+#fp-1 {
+   transform: rotate(8deg);
+   left: 17%;
+   top: 10%;
+}
+
+#fp-2 {
+   transform: rotate(-4deg);
+   left: 32%;
+   top: 17%;
+}
+
+#fp-3 {
+   transform: rotate(10deg);
+   left: -60%;
+   top: 50%;
+}
+
+#fp-4 {
+   transform: rotate(-3deg);
+   left: 40%;
+   top: 58%;
+}
+
+#fp-5 {
+   transform: rotate(-30deg);
+   left: 41%;
+   top: 34%;
+}
+
+footer {
+   margin: 200px;
+}
+
