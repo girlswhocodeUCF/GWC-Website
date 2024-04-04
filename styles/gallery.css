@@ -202,6 +202,7 @@ nav {
 	ul {
 		display: flex;
 		justify-content: flex-start;
+		flex-wrap: wrap;
 	}
 	li {
 		font-size: 1.25rem;
@@ -217,11 +218,11 @@ nav {
 }
 
 .img-container {
-	width: 50%;
+	width: 25%;
 	height: 250px;
 	cursor: pointer;
 	overflow: hidden;
-	&:hover .img-content-hover { 
+	&:hover .img-content-hover {
 		display: block;
 	}
 }
