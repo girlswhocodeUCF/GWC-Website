@@ -140,7 +140,7 @@ hr{
 }
 
 /* Girls Who Code at UCF description Section */
-
+/*
 h1 {
 
    position: relative;
@@ -166,11 +166,11 @@ h1 {
    line-height: 23px;
    color: #303030;
 
-}
+}*/
 
 /* Group Picture Section */
 
-#group-pic {
+/*#group-pic {
    box-sizing: border-box;
    position: absolute;
    width: 590px;
@@ -193,4 +193,11 @@ button{
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
    color: #F1F1F1;
+}*/
+
+/* Image Designs */
+@supports (display: grid) {
+	.gallery .grid {
+		grid-gap: 1rem;
+	}
 }
