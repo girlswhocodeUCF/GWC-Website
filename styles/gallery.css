@@ -140,7 +140,7 @@ hr{
 }
 
 /* Girls Who Code at UCF description Section */
-/*
+
 h1 {
 
    position: relative;
@@ -152,7 +152,7 @@ h1 {
    text-align: center;
    color: #303030;
 }
-
+/*
 #paragraph {
    position: absolute;
    width: 573px;
@@ -195,9 +195,89 @@ button{
    color: #F1F1F1;
 }*/
 
+
 /* Image Designs */
+nav {
+	padding: 2.5rem 0 2.5rem 0;
+	ul {
+		display: flex;
+		justify-content: flex-start;
+	}
+	li {
+		font-size: 1.25rem;
+		&:nth-child(2) {
+			margin: 0;
+		}
+	}
+}
+
+
+.gallery {
+	padding: 0 0 4rem 0;
+}
+
+.img-container {
+	width: 100%;
+	height: 500px;
+	cursor: pointer;
+	overflow: hidden;
+	&:hover .img-content-hover { 
+		display: block;
+	}
+}
+
+img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	transform: scale(1);
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		transform: scale(1.05); /*zoom in img on hover*/
+	}
+}
+
+/*SIZE IMAGE*/
+
+.img-content-hover {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	white-space: nowrap;
+	display: none;
+	padding: 1rem;
+	font-weight: 400;
+	margin-top: 1.25rem;
+	margin-left: -2rem;
+}
+
 @supports (display: grid) {
 	.gallery .grid {
 		grid-gap: 1rem;
+	}
+}
+
+@media(min-width: $md) {
+	nav ul {
+		justify-content: flex-end;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	img:hover {
+		transform: none;
+	}
+
+	.img-container {
+		height: 100%;
+		&:hover .img-content-hover {
+			display: none;
+		}
+}
+
+.img-content {
+	display: block;
+	padding: 1rem 0;
 	}
 }
