@@ -152,133 +152,161 @@ h1 {
    text-align: center;
    color: #303030;
 }
-/*
-#paragraph {
-   position: absolute;
-   width: 573px;
-   height: 295px;
-   left: 150px;
-   top: 280px;
-   font-family: 'Roboto', sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 23px;
-   color: #303030;
 
-}*/
+/*@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700'); 
 
-/* Group Picture Section */
+$white: #fff;
+$black: #2e2e2e;
+$gray: #787878;
+$highlight: #ea8478;
+$footer: #f7f7f7;
 
-/*#group-pic {
-   box-sizing: border-box;
-   position: absolute;
-   width: 590px;
-   height: 374px;
-   left: 788px;
-   top: 222px;
-   border-radius: 5px;
-   filter: drop-shadow(25px 25px 0px #CEEBA1);
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
 }
 
-button{
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: $gray;
+  background: $white;
+  text-rendering: optimizeLegibility;
+}
 
-   border-radius: 15px;
-   position: absolute;
-   width: 250px;
-   height: 65px;
-   left: 290px;
-   top: 650px;
-   background: #B070D8;
-   font-family: 'Roboto', sans-serif;
-   font-size: 18px;
-   color: #F1F1F1;
-}*/
+ul li {
+  margin: 0 1.5rem 0 0;
+}
 
-
-/* Image Designs */
+a {
+  color: $gray;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $black;
+  }
+  &.active {
+    color: $black;
+  }
+} */
+/*YOU STARTED COPYING HERE
 nav {
-	padding: 2.5rem 0 2.5rem 0;
-	ul {
-		display: flex;
-		justify-content: flex-start;
-		flex-wrap: wrap;
-	}
-	li {
-		font-size: 1.25rem;
-		&:nth-child(2) {
-			margin: 0;
-		}
-	}
-}
-
+  padding: 2.5rem 0 2.5rem 0;
+  ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+  li {
+    font-size: 1.25rem;
+    &:nth-child(2) {
+      margin: 0;
+    }
+  }
+}*/
+/*
+#highlight {
+  color: $highlight;
+  font-size: 1.25rem;
+} */
 
 .gallery {
-	padding: 0 0 4rem 0;
+  padding: 0 0 4rem 0;
 }
 
 .img-container {
-	width: 25%;
-	height: 250px;
-	cursor: pointer;
-	overflow: hidden;
-	&:hover .img-content-hover {
-		display: block;
-	}
+  width: 100%;
+  height: 500px;
+  cursor: pointer;
+  overflow: hidden;
+  &:hover .img-content-hover {
+    display: block;
+  }
 }
 
-img {
+.gallery-img {
 	width: 100%;
-	height: 500px;
+  height: 500px;
 	object-fit: cover;
-	transform: scale(1);
-	transition: all 0.3s ease-in-out;
-	&:hover {
-		transform: scale(1.05); /*zoom in img on hover*/
-	}
-}
-
-/*SIZE IMAGE*/
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05); /*zoom in img on hover*/
+  }
+} 
 
 .img-content-hover {
-	z-index: 1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	white-space: nowrap;
-	display: none;
-	padding: 1rem;
-	font-weight: 400;
-	margin-top: 1.25rem;
-	margin-left: -2rem;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  display: none;
+  padding: 1rem;
+ /* background: $white; */
+  font-weight: 400;
+  margin-top: 1.25rem;
+  margin-left: -2rem;
+}
+/*STOPPED COPYING HERE*/
+/*
+.title {
+  color: $black;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
-@supports (display: grid) {
-	.gallery .grid {
-		grid-gap: 1rem;
-	}
-}
-
-@media(min-width: $md) {
-	nav ul {
-		justify-content: flex-end;
-	}
-}
-
-@media screen and (max-width: 1024px) {
-	img:hover {
-		transform: none;
-	}
-
-	.img-container {
-		height: 100%;
-		&:hover .img-content-hover {
-			display: none;
-		}
+.category {
+  font-size: 1rem;
+  color: $gray;
 }
 
 .img-content {
-	display: block;
-	padding: 1rem 0;
-	}
+  display: none;
+}
+
+.social, .copyright {
+  margin: 1rem;
+}
+
+.social li {
+  display: inline-block;
+}
+
+footer {
+  padding: 1rem 0;
+  background: $footer;
+  text-align: center;
+} */
+
+@supports (display: grid) {
+  .gallery .grid {
+    grid-gap: 1rem;
+  }
+}
+
+@media(min-width: $md) {
+  nav ul {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  img:hover {
+    transform: none;
+  }
+  
+  .img-container {
+    height: 100%;
+    &:hover .img-content-hover {
+      display: none;
+    }
+  }
+
+  .img-content {
+    display: block;
+    padding: 1rem 0;
+  }
 }
