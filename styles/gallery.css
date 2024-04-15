@@ -193,6 +193,25 @@ button{
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
    color: #F1F1F1;
+<<<<<<< Updated upstream
+=======
+}*/
+
+
+/* Image Designs */
+nav {
+	padding: 2.5rem 0 2.5rem 0;
+	ul {
+		display: flex;
+		justify-content: flex-start;
+	}
+	li {
+		font-size: 1.25rem;
+		&:nth-child(2) {
+			margin: 0;
+		}
+	}
+>>>>>>> Stashed changes
 }
 
 /*@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700'); 
