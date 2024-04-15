@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+img.GWCLogo{
+	position: absolute;
+	width: 139px;
+	height: 133px;
+	left: 125px;
+	top:-5px;
+ }
+
+
+/* Natigation */
+
+/* Picture Logo */
+.pic-logo {
+   width: 140px;
+   height: 120px;
+   margin-left: 110px;
+}
+
+.posts {
+   padding-bottom: 80px;
+ }
+
+ nav a{
+   text-decoration: none;
+   color: #303030;
+   font-family: 'Courier Prime', monospace;
+   font-size: 28px;
+}
+
+#about {
+   position: absolute;
+   width: 130px;
+   height: 77px;
+   left: 390px;
+   top: 23px;
+
+   display: flex;
+   align-items: center;
+}
+
+#event {
+   position: absolute;
+   width: 231px;
+   height: 77px;
+   left: 520px;
+   top: 23px;
+
+   display: flex;
+   align-items: center;
+   text-decoration-line: underline;
+}
+
+#student-project {
+   position: absolute;
+   width: 276px;
+   left: 650px;
+   top: 45px;
+}
+
+#gallery {
+   position: absolute;
+   width: 276px;
+   height: 77px;
+   left: 950px;
+   top: 45px;
+}
+
+#faq{
+   position: absolute;
+   width: 330px;
+   height: 77px;
+   left: 1120px;
+   top: 45px;
+   font-style:italic;
+}
+
+/* Circle Color Area */
+
+.circle {
+   display: flex;
+   gap: 2em;
+   margin: 2em;
+}
+
+.purpleTopLeft {
+   position: absolute;
+   width: 509px;
+   height: 484.87px;
+   left: -130px;
+   top: 200px;
+   
+   background: rgba(197, 181, 223, 0.7);
+   filter: blur(110px);
+   transform: rotate(-44.52deg);
+   z-index: 0;
+}
+
+.blueRight {
+   position: absolute;
+   width: 618.75px;
+   height: 626.52px;
+   left: 860.38px;
+   top: 300px;
+   background: rgba(147, 238, 248, 0.5);
+   filter: blur(108.5px);
+   transform: rotate(-44.52deg);
+   border-radius: 50%;
+   z-index: -1;
+}
+
+.greenMiddle {
+   position: absolute;
+   width: 605.73px;
+   height: 613.33px;
+   left: -240px;
+   top: 981.68px;
+
+   background: rgba(206, 235, 161, 0.6);
+   filter: blur(108.5px);
+   transform: rotate(-44.52deg);
+   border-radius: 50%;
+   z-index: -1;
+}
+
+.purpleBottomLeft {
+   position: absolute;
+   width: 777.41px;
+   height: 740.55px;
+   left: 465px;
+   top: 1526.06px;
+   
+   background: rgba(197, 181, 223, 0.7);
+   filter: blur(108.5px);
+   transform: rotate(-44.52deg);      
+   z-index: -1;          
+}
+
+hr{
+   position: absolute;
+   width: 1251px;
+   height: 0px;
+   left: 123px;
+   top: 119px;
+   border: 2px solid #78567B;
+}
+
+/* Girls Who Code at UCF description Section */
+
+h1 {
+
+   font-family: 'Courier Prime', monospace;
+   font-style: italic;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-size: 40px;
+   text-align: center;
+   color: #303030;
+}
+
+h2 {
+   font-family: 'Courier Prime', monospace;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 100px;
+   width: 50%;
+   font-size: 30px;
+   text-align: center;
+   color: #303030;
+   font-style: italic;
+}
+
+p{
+   font-family: 'Courier Prime', monospace;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-size: 20px;
+   font-style: italic;
+   position: relative   ;
+   z-index: 1;
+}
+
+ol{
+    margin: auto;
+    width: 50%;
+}
+
+li{
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+}
+
+li a{
+    color:black;
+}
+
+footer{
+   margin-top: 100px;
+   align-content: center;
+   text-align: center;
+}
+
+footer a{
+   text-decoration: none;
+   color: #303030;
+   font-family: 'Courier Prime', monospace;
+}
