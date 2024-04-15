@@ -37,7 +37,7 @@ img.GWCLogo{
    margin-left: 110px;
 }
 
-a{
+nav a{
    text-decoration: none;
    color: #303030;
    font-family: 'Courier Prime', monospace;
@@ -202,7 +202,6 @@ h1 {
 }
 
 button{
-
    border-radius: 15px;
    position: absolute;
    width: 250px;
@@ -213,6 +212,7 @@ button{
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
    color: #F1F1F1;
+   z-index: 1;
 }
 
 /* Why Join Us Section */
@@ -231,6 +231,13 @@ button{
    text-align: center;
    color: #303030;
 }
+
+button a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F1F1F1;
+    text-decoration: none;
+ }
 
 .checkbox {
    color:#F1F1F1;
@@ -540,6 +547,12 @@ p{font-family: 'Roboto';
     justify-content: center;
     gap: 10px;
   }
+
+  footer a{
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Courier Prime', monospace;
+ }
 
 
 /*background
