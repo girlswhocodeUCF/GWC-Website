@@ -107,6 +107,7 @@ img.GWCLogo{
    filter: blur(108.5px);
    transform: rotate(-44.52deg);
    border-radius: 50%;
+   z-index: -1;
 }
 
 .greenMiddle {
@@ -120,6 +121,7 @@ img.GWCLogo{
    filter: blur(108.5px);
    transform: rotate(-44.52deg);
    border-radius: 50%;
+   z-index: -1;
 }
 
 .purpleBottomLeft {
@@ -131,7 +133,8 @@ img.GWCLogo{
    
    background: rgba(197, 181, 223, 0.7);
    filter: blur(108.5px);
-   transform: rotate(-44.52deg);                
+   transform: rotate(-44.52deg);      
+   z-index: -1;          
 }
 
 hr{
@@ -174,6 +177,10 @@ p{
    width: 50%;
    font-size: 20px;
    font-style: italic;
+}
+
+.becomeMember{
+   padding-top: 150px;
 }
 
 button{
