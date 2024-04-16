@@ -20,8 +20,8 @@ img.GWCLogo{
 }
 
 a{
-   text-decoration: none;
    color: #303030;
+   text-decoration: none;
    font-family: 'Courier Prime', monospace;
    font-size: 28px;
 }
@@ -370,4 +370,10 @@ footer {
     display: block;
     padding: 1rem 0;
   }
+}
+
+footer{
+  margin-top: 100px;
+  align-content: center;
+  text-align: center;
 }

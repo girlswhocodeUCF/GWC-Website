@@ -322,7 +322,8 @@ img {
    top: 34%;
 }
 
-footer {
-   margin: 200px;
+footer{
+   margin-top: 100px;
+   align-content: center;
+   text-align: center;
 }
-
