@@ -194,3 +194,9 @@ button{
    font-size: 18px;
    color: #F1F1F1;
 }
+
+footer{
+   margin-top: 100px;
+   align-content: center;
+   text-align: center;
+}
