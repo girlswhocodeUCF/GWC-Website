@@ -217,6 +217,10 @@ button{
    display: flex;
 }
 
+.project-logo{
+   border-radius: 10px;
+}
+
 img {
    height: 350px;
    width: 350px;
@@ -234,6 +238,8 @@ img {
 }
 
 .project-desc {
+   margin-inline: 1%;
+   padding-inline: 5%;
    width: 50%;
    text-align: center;
    font-family: 'Courier Prime', monospace;
