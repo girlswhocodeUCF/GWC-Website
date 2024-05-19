@@ -62,3 +62,7 @@ This is the repo for the GWC UCF Website
 <a href="https://github.com/whoislaurenm"><img src="https://github.com/whoislaurenm.png" width="60px;"/></a>
 &ensp;
 
+## Web Developers
+<a href="https://github.com/girlswhocodeUCF/GWC-Website/graphs/contributors">
+  <img align="center" src="https://contrib.rocks/image?max=100&repo=girlswhocodeUCF/GWC-Website" />
+</a>
