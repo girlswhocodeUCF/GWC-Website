@@ -130,7 +130,8 @@ a{
    
    background: rgba(197, 181, 223, 0.7);
    filter: blur(108.5px);
-   transform: rotate(-44.52deg);                
+   transform: rotate(-44.52deg);     
+   z-index: -1;           
 }
 
 hr{

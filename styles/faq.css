@@ -64,7 +64,6 @@ a{
    height: 77px;
    left: 950px;
    top: 45px;
-   /* text-decoration-line: underline; */
 }
 
 #faq {
@@ -74,6 +73,7 @@ a{
    left: 1110px;
    top: 45px;
    font-style:italic;
+   text-decoration-line: underline;
 }
 
 .label {
