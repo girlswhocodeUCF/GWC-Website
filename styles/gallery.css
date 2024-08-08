@@ -270,6 +270,10 @@ nav {
   font-size: 1.25rem;
 } */
 
+.media {
+  margin-top: 50px;
+}
+
 .gallery {
   padding: 0 0 4rem 0;
 }
