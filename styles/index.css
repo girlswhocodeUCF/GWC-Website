@@ -277,6 +277,31 @@ h3 {
    filter: drop-shadow(-15px 15px 0px #DFA4E4);
    background: #B070D8;
    border-radius: 16px;
+   
+}
+
+.box1 img {
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.box2 img {
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.box3 img {
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.box4 img {
+    margin:0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .two {
@@ -382,29 +407,29 @@ h3 {
 .b-member {
     box-sizing:border-box;
     display: inline-block;
-    width: 320.8px;
-    height: 416.8px;
+    width: 267.3px;
+    height: 347.3px;
     border-radius: 15px;
     padding: 2%;
     margin: 10px;
 }
 
 .b-member img {
-    width: 250.6px;
-    height: 228.9px;
+    width: 208.8px;
+    height: 190.75px;
 }
 
 .name {
     color: #303030;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .position {
     color: #78567B;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 22px;
 }
 
 .one {
@@ -473,7 +498,7 @@ h3{font-family: 'Roboto';
 p{font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 15px;
     line-height: 27px;
     display: flex;
     align-items: center;
