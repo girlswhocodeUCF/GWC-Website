@@ -16,7 +16,7 @@ img.GWCLogo{
 	position:absolute;
 	top: 23px;
 	
-	font-family: 'Courier Prime';
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 28px;
