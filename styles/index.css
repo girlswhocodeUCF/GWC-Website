@@ -7,7 +7,13 @@
     box-sizing: border-box;
 }
 
+html,
 body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+. body {
     width: 100%;
     min-height: 100vh;
     color: black;
@@ -74,11 +80,10 @@ nav {
 }
 
 nav a {
-    font-family: 'Courier Prime', monospace;
     text-decoration: none;
-    color: black;
-    font-size: 20px;
-    display: flex;
+    color: #303030;
+    font-family: 'Courier Prime', monospace;
+    font-size: 28px;
 }
 
 .nav-item {
@@ -238,8 +243,8 @@ nav a {
     left: 123px;
     top: 119px;
     border: 2px solid #78567B;
-}
-*/
+    }
+    */
 
 
 /* Girls Who Code at UCF description Section */
