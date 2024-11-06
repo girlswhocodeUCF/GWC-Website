@@ -149,18 +149,27 @@ nav a {
 }
 
 .text-section button {
-    margin-top: 300px;
-    padding: 20px 40px;
+    margin-left: 350px;
+    position: relative;
+    /* Change from absolute */
     width: 300px;
-    /* Increase width */
     height: 80px;
-    /* Increase height */
     font-size: 22px;
+    margin-top: 20px;
+    /* Add spacing from text */
+    left: 0;
+    /* Reset left position */
+    top: 0;
 }
 
 .text-section {
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
     width: 45%;
+    gap: 30px;
+    position: relative;
+    /* Add this */
+    padding-bottom: 100px;
 }
 
 .image-section {
@@ -292,7 +301,7 @@ button {
 /* Why Join Us Section */
 
 #WhyJoinUs {
-    position: absolute;
+    position: relative;
     width: 573px;
     height: 65px;
     left: 461.56px;
