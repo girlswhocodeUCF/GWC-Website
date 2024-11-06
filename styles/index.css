@@ -148,6 +148,16 @@ nav a {
     margin-trim: 50px;
 }
 
+.text-section button {
+    margin-top: 300px;
+    padding: 20px 40px;
+    width: 300px;
+    /* Increase width */
+    height: 80px;
+    /* Increase height */
+    font-size: 22px;
+}
+
 .text-section {
     width: 45%;
 }
@@ -234,15 +244,19 @@ h1 {
 }
 
 #paragraph {
-    margin: 30px;
+    line-height: 1.2em;
+    /* Relative to font size */
+    margin-bottom: 1.2em;
+    /* Relative to font size */
+    letter-spacing: 0.02em;
+    justify-content: space-between;
     position: relative;
     left: 0;
     top: 0;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 30px;
     color: black;
 }
 
