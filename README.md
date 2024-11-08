@@ -17,7 +17,7 @@ This is the repo for the GWC UCF Website
   &emsp;&emsp;
   <sub><a href="https://github.com/ca764763">Cassandra Alvarez</a></sub>
   &emsp;
-  <sub><a href="https://github.com/ca764763">Julianne Tomlinson</a></sub>
+  <sub><a href="https://github.com/JewlzT">Julianne Tomlinson</a></sub>
 </div>
 
 
