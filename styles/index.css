@@ -493,16 +493,15 @@ h3 {
 }
 
 .b-member {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
     width: 300px;
-    /* Adjust width based on your preference */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    min-height: 300px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 20px;
+    flex-shrink: 0;
+    gap: 15px;
+    padding: 20px;
+    /* Keeps the width fixed */
 }
 
 .b-member img {
@@ -624,8 +623,6 @@ p {
 .card {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
     width: 100%;
     gap: 30px;
     padding: 40px;
