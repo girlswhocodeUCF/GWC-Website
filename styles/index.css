@@ -215,6 +215,10 @@ button{
    z-index: 1;
 }
 
+button:hover {
+    background-color: #422057;
+}
+
 /* Why Join Us Section */
 
 #WhyJoinUs {
@@ -579,6 +583,7 @@ p{font-family: 'Roboto';
     font-family: 'Courier Prime', monospace;
  }
 
+ 
 
 /*background
 arrows
