@@ -364,17 +364,3 @@ footer {
 #threeBackground{
   background-color: #cff4ea;
 }
-
-.join-button{
-  border-radius: 15px;
-  width: 250px;
-  height: 65px;
-  left: 290px;
-  top: 650px;
-  background: #B070D8;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #F1F1F1;
-  z-index: 1;
-  cursor: pointer;
-}
