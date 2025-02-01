@@ -112,6 +112,10 @@ hr {
   font-size: 40px;
 }
 
+.question-title {
+  margin-top: 25vh;
+}
+
 .formContainer {
   display: flex;
   justify-content: center;
