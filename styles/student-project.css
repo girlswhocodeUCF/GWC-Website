@@ -1,17 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
-img.GWCLogo{
-	position: absolute;
-	width: 139px;
-	height: 133px;
-	left: 125px;
-	top:-5px;
- }
+img.GWCLogo {
+   position: absolute;
+   width: 139px;
+   height: 133px;
+   left: 125px;
+   top: -5px;
+}
 
- body {
-   overflow-x: hidden;
- }
+.about {
+   width: 130px;
+   height: 77px;
+   left: 363px;
+   position: absolute;
+   top: 23px;
+
+   font-family: 'Courier Prime';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 31px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-decoration-line: underline;
+   color: #303030;
+}
 
 /* Natigation */
 
@@ -22,11 +37,27 @@ img.GWCLogo{
    margin-left: 110px;
 }
 
-a{
+nav a {
+   position: relative;
    text-decoration: none;
    color: #303030;
    font-family: 'Courier Prime', monospace;
    font-size: 28px;
+}
+
+nav a::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -3px;
+   width: 0%;
+   height: 2px;
+   background-color: #B070D8;
+   transition: width 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+   width: 100%;
 }
 
 #about {
@@ -56,7 +87,8 @@ a{
    width: 276px;
    left: 650px;
    top: 45px;
-  text-decoration-line: underline;
+
+   font-weight: bold;
 }
 
 #gallery {
@@ -73,7 +105,6 @@ a{
    height: 77px;
    left: 1120px;
    top: 45px;
-   font-style:italic;
 }
 
 /* Circle Color Area */
@@ -90,7 +121,7 @@ a{
    height: 484.87px;
    left: -130px;
    top: 200px;
-   
+
    background: rgba(197, 181, 223, 0.7);
    filter: blur(110px);
    transform: rotate(-44.52deg);
@@ -127,20 +158,19 @@ a{
    height: 740.55px;
    left: 465px;
    top: 1526.06px;
-   
+
    background: rgba(197, 181, 223, 0.7);
    filter: blur(108.5px);
-   transform: rotate(-44.52deg);     
-   z-index: -1;           
+   transform: rotate(-44.52deg);
 }
 
-hr{
+hr {
    position: absolute;
    width: 1251px;
    height: 0px;
    left: 123px;
-   top: 119px;
-   border: 2px solid #78567B;
+   top: 125px;
+   border: 2px solid #78569B;
 }
 
 /* Girls Who Code at UCF description Section */
