@@ -1,46 +1,111 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
-body {
-  margin-left: 8vw;
-  margin-right: 8vw;
-  overflow-x: hidden;
-  position: relative;
+img.GWCLogo {
+  position: absolute;
+  width: 139px;
+  height: 133px;
+  left: 125px;
+  top: -5px;
 }
 
-nav {
-  display: flex;
+.about {
+  width: 130px;
+  height: 77px;
+  left: 363px;
+  position: absolute;
+  top: 23px;
 
+  font-family: 'Courier Prime';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 31px;
+  display: flex;
   align-items: center;
-  width: 100%;
-  height: 15vh;
+  text-align: center;
+  color: #303030;
+}
+
+/* Natigation */
+
+/* Picture Logo */
+.pic-logo {
+  width: 140px;
+  height: 120px;
+  margin-left: 110px;
+
+  margin-top: -10px;
+  /* Adjust this value as needed */
+}
+
+nav a {
   position: relative;
-}
-
-#menuWrapper {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-#menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#menu a {
   text-decoration: none;
   color: #303030;
-  font-family: "Courier Prime", monospace;
+  font-family: 'Courier Prime', monospace;
   font-size: 28px;
-  padding: 1.5vw;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background-color: #B070D8;
+  transition: width 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+#about {
+  position: absolute;
+  width: 130px;
+  height: 77px;
+  left: 390px;
+  top: 23px;
+
+  display: flex;
+  align-items: center;
+}
+
+#event {
+  position: absolute;
+  width: 231px;
+  height: 77px;
+  left: 520px;
+  top: 23px;
+
+  display: flex;
+  align-items: center;
+}
+
+#student-project {
+  position: absolute;
+  width: 276px;
+  left: 650px;
+  top: 45px;
+}
+
+#gallery {
+  position: absolute;
+  width: 276px;
+  height: 77px;
+  left: 950px;
+  top: 45px;
 }
 
 #contact {
-  text-decoration-line: underline;
-  font-size: 28px;
+  position: absolute;
+  width: 330px;
+  height: 77px;
+  left: 1120px;
+  top: 45px;
+  font-weight: bold;
 }
 
 .pic-logo {
@@ -98,10 +163,11 @@ nav {
 
 hr {
   position: absolute;
-  width: calc(100vw - 16vw);
+  width: 1251px;
   height: 0px;
-  margin-top: 2vh;
-  border: 2px solid #78567b;
+  left: 123px;
+  top: 125px;
+  border: 2px solid #78569B;
 }
 
 .label {
