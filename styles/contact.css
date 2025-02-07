@@ -105,7 +105,6 @@ nav a:hover::after {
   height: 77px;
   left: 1120px;
   top: 45px;
-
   font-weight: bold;
 }
 
@@ -121,12 +120,14 @@ nav a:hover::after {
   display: flex;
 }
 
+
 .purpleTopLeft {
   position: absolute;
   width: 509px;
   height: 484.87px;
   left: -130px;
   top: 200px;
+
   background: rgba(197, 181, 223, 0.7);
   filter: blur(110px);
   transform: rotate(-44.52deg);
@@ -150,7 +151,7 @@ nav a:hover::after {
   width: 605.73px;
   height: 613.33px;
   left: -240px;
-  top: 981.68px;
+  top: 600.68px;
   z-index: -1;
   background: rgba(206, 235, 161, 0.6);
   filter: blur(108.5px);
@@ -158,17 +159,7 @@ nav a:hover::after {
   border-radius: 50%;
 }
 
-.purpleBottomLeft {
-  position: absolute;
-  width: 777.41px;
-  height: 740.55px;
-  left: 465px;
-  top: 1526.06px;
-  z-index: -1;
-  background: rgba(197, 181, 223, 0.7);
-  filter: blur(108.5px);
-  transform: rotate(-44.52deg);
-}
+
 
 hr {
   position: absolute;
@@ -187,11 +178,16 @@ hr {
   font-size: 40px;
 }
 
+.question-title {
+  margin-top: 25vh;
+}
+
 .formContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 .form {
@@ -342,7 +338,12 @@ hr {
   border-radius: 10px;
 }
 
-button {
+#contact-form {
+  width: 100%;
+}
+
+#contact-submit {
+  margin-top: 1.5rem;
   width: 15.5rem;
   height: 4rem;
   background: #b070d8;
@@ -350,14 +351,6 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #f1f1f1;
-}
-
-#contact-form {
-  width: 100%;
-}
-
-#contact-submit {
-  margin-top: 1.5rem;
 }
 
 #name {
@@ -370,4 +363,70 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2rem;
+}
+
+/* Frequently Asked Questions */
+
+.FAQContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position:relative;
+}
+.collapsible{
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:after{
+  content: '\02C5';
+  color: black;
+  float:right;
+  margin-left:5px;
+}
+
+.active:after{
+  content:"\02C4";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  width: 95%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+#questionOne, .content{
+  background-color: #DFA4E4;
+}
+
+#questionTwo {
+  background-color: #B1C7A5;
+}
+
+#questionThree {
+  background-color: #9FF8E1;
+}
+
+#oneBackground{
+  background-color: #FCD9FF;
+}
+
+#twoBackground{
+  background-color: #d5ecc8;
+}
+
+#threeBackground{
+  background-color: #cff4ea;
 }

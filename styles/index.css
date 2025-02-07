@@ -228,6 +228,7 @@ button{
    font-size: 18px;
    color: #F1F1F1;
    z-index: 1;
+   cursor: pointer;
 }
 
 /* Why Join Us Section */

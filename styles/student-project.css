@@ -87,7 +87,6 @@ nav a:hover::after {
    width: 276px;
    left: 650px;
    top: 45px;
-
    font-weight: bold;
 }
 
@@ -104,7 +103,7 @@ nav a:hover::after {
    width: 330px;
    height: 77px;
    left: 1120px;
-   top: 45px;
+   top: 45px
 }
 
 /* Circle Color Area */
