@@ -300,6 +300,11 @@ img {
 
 /* Bulletin Board */
 
+#past-projects {
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
 .bulletinboard{
    display:flex;
    justify-content: center;
@@ -307,12 +312,13 @@ img {
    flex-direction: column;
    text-align: center;
 }
+
 .outerboard{
    display:flex;
    justify-content: center;
    align-items: center;
-   height: 1000px;
-   width: 900px;
+   height: 1072px;
+   width: 1183px;
    background-color:#C69A68;
    border-radius: 30px 30px 30px 30px;   
 }
@@ -322,9 +328,15 @@ img {
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   height: 800px;
-   width: 800px;
-   background-color: #f6d3a8;
+   gap: 50px;
+   height: 900px;
+   width: 1028px;
+   background-color: #F6D3A8;
+}
+
+.bulletin-projects{
+   height: 300px;
+   width: 300px;
 }
 
 #fp-1 {
