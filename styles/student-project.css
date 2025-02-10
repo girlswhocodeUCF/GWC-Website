@@ -56,7 +56,7 @@ a{
    width: 276px;
    left: 650px;
    top: 45px;
-  text-decoration-line: underline;
+   text-decoration-line: underline;
 }
 
 #gallery {
@@ -72,8 +72,7 @@ a{
    width: 330px;
    height: 77px;
    left: 1120px;
-   top: 45px;
-   font-style:italic;
+   top: 45px
 }
 
 /* Circle Color Area */
