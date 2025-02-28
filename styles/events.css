@@ -12,6 +12,7 @@ img.GWCLogo{
 
 /* Natigation */
 
+
 /* Picture Logo */
 .pic-logo {
    width: 140px;
@@ -143,8 +144,8 @@ nav a:hover::after {
    position: absolute;
    width: 777.41px;
    height: 740.55px;
-   left: 465px;
-   top: 1526.06px;
+   left: 700px;
+   top: 1000px;
    
    background: rgba(197, 181, 223, 0.7);
    filter: blur(108.5px);
@@ -152,8 +153,8 @@ nav a:hover::after {
    z-index: -1;          
 }
 
-hr {
-   position: absolute;
+hr{
+   position: auto;
    width: 1251px;
    height: 0px;
    left: 123px;

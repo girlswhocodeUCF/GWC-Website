@@ -29,6 +29,10 @@ img.GWCLogo {
 }
 
 /* Natigation */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 
 /* Picture Logo */
 .pic-logo {
@@ -164,27 +168,38 @@ nav a:hover::after {
   transform: rotate(-44.52deg);
 }
 
-hr {
+hr{
   position: absolute;
-  width: 1251px;
-  height: 0px;
+  width: 1251px; 
+  height: 0px; 
   left: 123px;
   top: 119px;
-  border: 2px solid #78569B;
+  border: 2px solid #78567B;
 }
 
 /* Girls Who Code at UCF description Section */
 
 h1 {
-
    position: relative;
-   left: 25%;
+   left: 14%;
    font-family: 'Courier Prime', monospace;
    font-size: 40px;
    display: flex;
    align-items: center;
    text-align: center;
    color: #303030;
+}
+
+h2 {
+  position: relative;
+  left: 10%;
+  padding-top: 5%;
+  font-family: 'Courier Prime', monospace;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #303030;
 }
 
 #paragraph {
@@ -328,6 +343,7 @@ nav {
 	object-fit: cover;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
+  margin: 10px;
   &:hover {
     transform: scale(1.05); /*zoom in img on hover*/
   }
@@ -383,22 +399,41 @@ footer {
   }
 }
 
-@media(min-width: md) {
+@media(min-width: 768px) {
   nav ul {
-    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
   }
+
+  .responsive-img {
+    width: 45%;
+  }
+
 }
 
-@media screen and (max-width: 1024px) {
+@media(min-width: 1024px) {
   img:hover {
     transform: none;
   }
   
   .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
     height: 100%;
     &:hover .img-content-hover {
       display: none;
     }
+  }
+
+  .responsive-img {
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s ease-in-out;
   }
 
   .img-content {
