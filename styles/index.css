@@ -38,10 +38,26 @@ img.GWCLogo{
 }
 
 nav a{
+   position: relative;
    text-decoration: none;
    color: #303030;
    font-family: 'Courier Prime', monospace;
    font-size: 28px;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: #B070D8;
+    transition: width 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 #about {
@@ -53,7 +69,7 @@ nav a{
 
    display: flex;
    align-items: center;
-   text-decoration-line: underline;
+   font-weight: bold;
 }
 
 #event {
@@ -147,13 +163,13 @@ nav a{
    transform: rotate(-44.52deg);                
 }
 
-hr{
-   position: absolute;
-   width: 1251px;
-   height: 0px;
-   left: 123px;
-   top: 119px;
-   border: 2px solid #78567B;
+hr {
+    position: absolute;
+    width: 1251px;
+    height: 0px;
+    left: 123px;
+    top: 125px;
+    border: 2px solid #78569B;
 }
 
 /* Girls Who Code at UCF description Section */
