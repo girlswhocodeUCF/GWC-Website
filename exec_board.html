@@ -11,8 +11,25 @@
 
   <body>
 
+  <!--nav bar-->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <img src="images/burgerbar.png" class="burger-bar"></i>
+    </label>
+    <div class="logo"><img src="images/gwc logo transparent.png"></div>
+    <ul>
+        <li><a class="active" href="index.html">about</a></li>
+        <li><a href="events.html">events</a></li>
+        <li><a href="student-project.html">student projects</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="contact.html">faq</a></li>
+    </ul>
+  </nav>
+
+
     <!-- heading and subheading -->
-    <div class="header">
+    <div class="title">
       <h1>past executive boards</h1>
       <h5>take a look back at the amazing leaders who helped shape our loop! our past executive boards 
       have worked hard to grow our community, create lasting traditions, and make a positive impact.</h5>
@@ -58,16 +75,12 @@
       </div>
     </div>
 
-    <!-- background circles -->
-    <!-- <div>
-        <div class="circle"></div>
-        <div class="purpleTopLeft"></div>
-        <div class="blueRight"></div>
-        <div class="greenMiddle"></div>
-        <div class="purpleBottomLeft"></div>
-    </div> -->
-
-
+  <script>
+    function toggleMenu() {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+    }
+  </script>
 
   </body>
 
