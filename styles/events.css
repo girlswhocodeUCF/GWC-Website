@@ -154,7 +154,7 @@ nav a:hover::after {
 }
 
 hr{
-   position: auto;
+   position: absolute;
    width: 1251px;
    height: 0px;
    left: 123px;
