@@ -328,6 +328,77 @@ img {
    width: 350px;
 }
 
+/* Bulletin Board */
+
+#past-projects {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   font-size: 75px;
+}
+
+.bulletinboard{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.outerboard{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 1072px;
+   width: 1183px;
+   background-color:#C69A68;
+   border-radius: 30px 30px 30px 30px;   
+}
+
+.innerboard{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 50px;
+   height: 900px;
+   width: 1028px;
+   background-color: #F6D3A8;
+}
+
+.bulletin-projects{
+   height: 300px;
+   width: 300px;
+}
+  
+.pin{
+   position: relative;
+}
+.push-pin{
+   height:50px;
+   width:50px;
+   position: absolute;
+}
+
+#pin-2{
+  transform: translate(-40px, -5px);
+}
+
+#pin-3{
+   transform: translate(0px, -10px);
+}
+
+#pin-4{
+   transform: translate(-60px, 0px);
+}
+
+#pin-5{
+   transform: translate(-30px, -10px);
+}
+
+#pin-6{
+   transform: translate(-30px, -15px);
+}
+
 #fp-1 {
    transform: rotate(8deg);
    left: 17%;
@@ -347,13 +418,18 @@ img {
 }
 
 #fp-4 {
-   transform: rotate(-3deg);
+   transform: rotate(-15deg);
    left: 40%;
    top: 58%;
 }
 
 #fp-5 {
-   transform: rotate(-30deg);
+   left: 41%;
+   top: 34%;
+}
+
+#fp-6 {
+   transform: rotate(-10deg);
    left: 41%;
    top: 34%;
 }

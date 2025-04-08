@@ -378,7 +378,7 @@ footer {
   color: #000000;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 93%;
   border: none;
   text-align: left;
   outline: none;
@@ -399,7 +399,7 @@ footer {
 .content {
   padding: 0 18px;
   max-height: 0;
-  width: 95%;
+  width: 87%;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   border-radius: 0 0 10px 10px;
