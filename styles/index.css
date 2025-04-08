@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html, body {
+    width: 100%;
+    -webkit-text-size-adjust: 100%; 
+}
+body {
+    max-width: 100vw;
+}
 img.GWCLogo{
 	position: absolute;
 	width: 139px;
@@ -8,43 +19,41 @@ img.GWCLogo{
 	left: 125px;
 	top:-5px;
  }
-
- .about{
-	width: 130px;
-	height: 77px;
-	left: 363px;
-	position:absolute;
-	top: 23px;
-	
-	font-family: 'Courier Prime';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 28px;
-	line-height: 31px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	text-decoration-line: underline;
-	color: #303030;
- }
-
-/* Natigation */
-
+ 
+.navbar {
+    display: flex ;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 40px;
+    background-color: transparent;
+    position:relative;
+}
 /* Picture Logo */
 .pic-logo {
-   width: 140px;
-   height: 120px;
-   margin-left: 110px;
+    width: 140px;
+    height: 120px;
+    margin-left: 100px;
+ }
+.nav-links {
+    margin-left:100px;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Courier Prime', monospace;
+    font-size: 28px;
+    position: relative;
 }
 
-nav a{
-   position: relative;
-   text-decoration: none;
-   color: #303030;
-   font-family: 'Courier Prime', monospace;
-   font-size: 28px;
-}
-
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Courier Prime', monospace;
+    font-size: 28px;
+ }
 nav a::after {
     content: "";
     position: absolute;
@@ -60,54 +69,6 @@ nav a:hover::after {
     width: 100%;
 }
 
-#about {
-   position: absolute;
-   width: 130px;
-   height: 77px;
-   left: 390px;
-   top: 23px;
-
-   display: flex;
-   align-items: center;
-   font-weight: bold;
-}
-
-#event {
-   position: absolute;
-   width: 231px;
-   height: 77px;
-   left: 520px;
-   top: 23px;
-
-   display: flex;
-   align-items: center;
-}
-
-#student-project {
-   position: absolute;
-   width: 276px;
-   left: 650px;
-   top: 45px;
-}
-
-#gallery {
-   position: absolute;
-   width: 276px;
-   height: 77px;
-   left: 950px;
-   top: 45px;
-}
-
-#contact{
-   position: absolute;
-   width: 330px;
-   height: 77px;
-   left: 1120px;
-   top: 45px;
-}
-
-/* Circle Color Area */
-
 .circle {
    display: flex;
    gap: 2em;
@@ -120,7 +81,7 @@ nav a:hover::after {
    height: 484.87px;
    left: -130px;
    top: 200px;
-   
+   z-index: -1;
    background: rgba(197, 181, 223, 0.7);
    filter: blur(110px);
    transform: rotate(-44.52deg);
@@ -132,6 +93,7 @@ nav a:hover::after {
    height: 626.52px;
    left: 860.38px;
    top: 300px;
+   z-index: -1;
    background: rgba(147, 238, 248, 0.5);
    filter: blur(108.5px);
    transform: rotate(-44.52deg);
@@ -144,7 +106,7 @@ nav a:hover::after {
    height: 613.33px;
    left: -240px;
    top: 981.68px;
-
+   z-index: -1;
    background: rgba(206, 235, 161, 0.6);
    filter: blur(108.5px);
    transform: rotate(-44.52deg);
@@ -157,7 +119,7 @@ nav a:hover::after {
    height: 740.55px;
    left: 465px;
    top: 1526.06px;
-   
+   z-index: -1;
    background: rgba(197, 181, 223, 0.7);
    filter: blur(108.5px);
    transform: rotate(-44.52deg);                
@@ -174,79 +136,156 @@ hr {
 
 /* Girls Who Code at UCF description Section */
 
-h1 {
-
-   position: relative;
-   width: 573px;
-   height: 65px;
-   left: 160px;
-   font-family: 'Courier Prime', monospace;
-   font-size: 40px;
+.intro-section {
    display: flex;
-   align-items: center;
-   text-align: center;
+   justify-content: space-between;
+   align-items: flex-start;
+   max-width: 1400px;
+   margin: 80px auto;
+   padding: 0 20px;
+   gap: 40px;
+}
+
+.intro {
+   flex: 1;
+   max-width: 600px;
+   display: flex;
+   flex-direction: column;
+}
+
+.intro h1 {
+   position: relative;
+   width: 100%;
+   margin: 0 0 40px;
+   font-family: 'Courier Prime', monospace;
+   font-size: 45px;
    color: #303030;
 }
 
+.intro-content {
+   position: relative;
+}
+
 #paragraph {
-   position: absolute;
-   width: 573px;
-   height: 295px;
-   left: 150px;
-   top: 280px;
+   position: relative;
+   width: 100%;
+   margin: 0 0 30px;
    font-family: 'Roboto', sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
-   line-height: 23px;
+   line-height: 1.5;
    color: #303030;
-
 }
 
-/* Group Picture Section */
+.intro-image {
+   flex: 1;
+   max-width: 590px;
+   margin-top: 40px;
+}
 
 #group-pic {
-   box-sizing: border-box;
-   position: absolute;
-   width: 590px;
-   height: 374px;
-   left: 788px;
-   top: 222px;
+   width: 100%;
+   height: auto;
    border-radius: 5px;
    filter: drop-shadow(25px 25px 0px #CEEBA1);
 }
 
-button{
+.member-button {
+   margin-bottom: 40px;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   max-width: 573px;  /* Same as paragraph max-width */
+}
+
+button {
    border-radius: 15px;
-   position: absolute;
    width: 250px;
    height: 65px;
-   left: 290px;
-   top: 650px;
    background: #B070D8;
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
    color: #F1F1F1;
-   z-index: 1;
    cursor: pointer;
+   border: none;
 }
 
 /* Why Join Us Section */
-
 #WhyJoinUs {
-   position: absolute;
-   width: 573px;
-   height: 65px;
-   left: 461.56px;
-   top: 818px;
-   font-family: 'Courier Prime', monospace;
-   font-style: italic;
-   font-weight: 400;
-   font-size: 50px;
-   line-height: 56px;
-   text-align: center;
-   color: #303030;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+    color: #303030;
+    margin: 60px auto 40px;
+    width: 100%;
+    position: static;
+    display: block;
+    height: auto;
 }
+
+/* Add responsive styles */
+@media screen and (max-width: 1200px) {
+   .intro-section {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+   }
+
+   .intro, .intro-image {
+      max-width: 100%;
+   }
+
+   .intro {
+      order: 1;
+   }
+
+   .intro-image {
+      order: 2;
+      margin-top: 0;
+   }
+
+   #group-pic {
+      margin-top: 40px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .intro-section {
+      margin: 40px auto 20px;
+      padding: 0 15px;
+   }
+
+   .intro h1 {
+      font-size: 32px;
+      margin: 0 0 30px;
+   }
+
+   #paragraph {
+      font-size: 18px;
+   }
+
+   #WhyJoinUs {
+      font-size: 40px;
+      line-height: 46px;
+      margin-bottom: 30px;
+   }
+
+   .checkbox {
+      gap: 20px;
+      padding: 0 10px;
+   }
+
+   .box1, .box2, .box3, .box4 {
+      width: 100%;
+      max-width: 290px;
+   }
+}
+
+/* Group Picture Section */
 
 button a{
     font-family: 'Roboto', sans-serif;
@@ -256,8 +295,14 @@ button a{
  }
 
 .checkbox {
-   color:#F1F1F1;
-   font-family: 'Roboto', sans-serif;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+   padding: 0 20px;
+   max-width: 1400px;
+   margin: 0 auto;
+   margin-bottom: 60px;
 }
 
 h3 {
@@ -284,40 +329,37 @@ h3 {
     padding: 1px 20px;
 }
 
-.box1{
-   position: absolute;
-   width: 290.02px;
-   height: 258.1px;
-   left: 115px;
-   top: 1000px;
-   filter: drop-shadow(-15px 15px 0px #DFA4E4);
+.box1, .box2, .box3, .box4 {
+   position: relative;
+   width: 290px;
+   height: 258px;
    background: #B070D8;
    border-radius: 16px;
-   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
 }
 
-.box1 img {
-    margin:0 auto;
-    display: flex;
-    align-items: center;
+.box2, .box4 {
+   background: #6F52D5;
 }
 
-.box2 img {
-    margin:0 auto;
-    display: flex;
-    align-items: center;
+.box1 {
+   filter: drop-shadow(-15px 15px 0px #DFA4E4);
 }
 
-.box3 img {
-    margin:0 auto;
-    display: flex;
-    align-items: center;
+.box2 {
+   filter: drop-shadow(-15px 15px 0px #C5B5DF);
 }
 
-.box4 img {
-    margin:0 auto;
-    display: flex;
-    align-items: center;
+.box3 {
+   filter: drop-shadow(-15px 15px 0px #DFA4E4);
+}
+
+.box4 {
+   filter: drop-shadow(-15px 15px 0px #C5B5DF);
 }
 
 .two {
@@ -329,38 +371,6 @@ h3 {
    color: #f1f1f1;
 }
 
-.box2 {
-   position: absolute;
-   width: 290.02px;
-   height: 258.1px;
-   left: 437.85px;
-   top: 1050px;
-   background: #6F52D5;
-   border-radius: 15px;
-   filter: drop-shadow(-15px 15px 0px #C5B5DF);
-}
-.box3 {
-   position: absolute;
-   width: 290.02px;
-   height: 258.1px;
-   left: 760.7px;
-   top: 1000px;
-   background: #B070D8;
-   border-radius: 15px;
-   filter: drop-shadow(-15px 15px 0px #DFA4E4);
-}
-
-.box4 {
-   position: absolute;
-   width: 290.02px;
-   height: 258.1px;
-   left: 1084.54px;
-   top: 1050px;
-   background: #6F52D5;
-   border-radius: 15px;
-   filter: drop-shadow(-15px 15px 0px #C5B5DF);
-}
-
 /* Events & Exec Board */
 
 /* Past Events */
@@ -369,9 +379,8 @@ h3 {
     font-style: italic;
     font-weight: 400;
     text-align: center;
-    padding-top: 1200px;
-    padding-left: 330px;
-
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .scrolling-events {
@@ -404,88 +413,129 @@ h3 {
 }
 
 /** Executive Board**/
-
 .board {
-    position: absolute;
-}
-
-.board p + p {
-    margin-top: -20px;
+    width: 100%;
+    padding: 40px;
+    margin: 60px 0;
+    text-align: center;
+    overflow: visible;
 }
 
 .board h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', monospace;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 400;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.board-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 40px;
+    width: 100%;
 }
 
 .b-member {
-    box-sizing:border-box;
-    display: inline-block;
-    width: 267.3px;
-    height: 347.3px;
+    flex: 0 0 300px;
+    width: 300px;
+    height: 400px;
     border-radius: 15px;
-    padding: 2%;
-    margin: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
 }
 
 .b-member img {
-    width: 208.8px;
-    height: 190.75px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 25px;
 }
 
 .name {
     color: #303030;
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
 }
 
 .position {
     color: #78567B;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
 }
 
-.one {
+.major {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Board member card styles */
+.b-member.one {
     border: 4px solid #78567b;
     background-color: #DFA4E4;
     box-shadow: -10px 10px #78567b;
 }
 
-.two {
-    border: 1px solid #656B5A;
+.b-member.two {
+    border: 4px solid #656B5A;
     background-color: #CEEBA1;
     box-shadow: -10px 10px #656B5A;
 }
 
-.three {
+.b-member.three {
     border: 4px solid #446A60;
     background-color: #9FF8E1;
     box-shadow: -10px 10px #446A60;
 }
 
-.four {
+.b-member.four {
     border: 4px solid #446A60;
     background-color: #9FF8E1;
     box-shadow: -10px 10px #446A60;
 }
 
-.five {
+.b-member.five {
     border: 4px solid #78567b;
     background-color: #DFA4E4;
     box-shadow: -10px 10px #78567b;
 }
 
 /* Section Title */
-h1{font-family: 'Courier Prime';
-    font-style: italic;
+h1 {
+    font-family: 'Courier Prime';
     font-weight: 400;
     font-size: 50px;
     line-height: 56px;
     text-align: center;
     color: #303030;
+}
+
+/* Add italic style back to other h1s that need it */
+.events h1, .board h1, #WhyJoinUs {
+    font-style: italic;
 }
 
 /*Names*/
@@ -525,9 +575,10 @@ p{font-family: 'Roboto';
     height: 300px;
     overflow: hidden;
     object-fit: cover;}
-.webteam{
-    padding-top: 1300px;
-}
+.webteam {
+            text-align: center;
+            margin: 50px 0;
+        }
 .Card1{box-sizing:border-box;
     /*position: absolute;*/
     width: 401px;
@@ -559,44 +610,232 @@ p{font-family: 'Roboto';
     background: #9FF8E1;
     border: 4px solid #446A60;
     border-radius: 15px;
-
     margin: 20px;
     max-width: 421px;
     max-height: 500px;
     display: inline-block;
 }
 
-.Card3{box-sizing: border-box;
-    /*position: absolute;*/
+.Card3 {
+    box-sizing: border-box;
     width: 401px;
     height: 521px;
-    /*left: 994px;
-    top: 3538px;*/
     background: #DFA4E4;
     border: 4px solid #78567B;
     border-radius: 15px;
-
     margin: 20px;
     max-width: 421px;
     max-height: 500px;
     display: inline-block;
 }
-/*social media logos*/
+
+.webteam {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.webteam-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Web Team Section */
+.web-member {
+    width: 320px;
+    height: 420px;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.web-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.web-member .name {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 12px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.web-member .position {
+    color: #78567B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 12px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.web-member .major {
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.web-member.one {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
+
+.web-member.two {
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.web-member.three {
+    border: 4px solid #446A60;
+    background-color: #9FF8E1;
+    box-shadow: -10px 10px #446A60;
+}
+
+.webteam {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.webteam-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Sponsor Section */
+.sponsor-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.sponsor-container h1 {
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+    color: #303030;
+    margin-bottom: 40px;
+}
+
+.sponsor-image {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .sponsor-container h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+}
+
+/* Footer Section */
 .footer-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-  }
+    margin: 40px 0;
+}
 
-  footer a{
+footer a {
     text-decoration: none;
     color: #303030;
     font-family: 'Courier Prime', monospace;
- }
-
+}
 
 /*background
 arrows
 boxes around each person's card*/
+
+.board-container::-webkit-scrollbar {
+    display: none;
+}
+
+.board-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .card-row {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .b-member {
+        flex: 0 0 100%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+}
+
+/* Card Styles */
+.Card1 {
+    box-sizing: border-box;
+    width: 320.8px;
+    height: 416.8px;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 10px;
+    background: #CEEBA1;
+    border: 4px solid #656B5A;
+}
+
+.Card2 {
+    box-sizing: border-box;
+    width: 401px;
+    height: 521px;
+    background: #9FF8E1;
+    border: 4px solid #446A60;
+    border-radius: 15px;
+    margin: 20px;
+    max-width: 421px;
+    max-height: 500px;
+    display: inline-block;
+}
+
+.Card3 {
+    box-sizing: border-box;
+    width: 401px;
+    height: 521px;
+    background: #DFA4E4;
+    border: 4px solid #78567B;
+    border-radius: 15px;
+    margin: 20px;
+    max-width: 421px;
+    max-height: 500px;
+    display: inline-block;
+}
 
