@@ -39,12 +39,13 @@ img.GWCLogo{
     display: flex;
     gap: 30px;
 }
-.nav-links a {
-    text-decoration: none;
-    color: #303030;
-    font-family: 'Courier Prime', monospace;
-    font-size: 28px;
-    position: relative;
+nav a{
+   position: relative;
+   text-decoration: none;
+   color: #303030;
+   font-family: 'Courier Prime', monospace;
+   font-size: 28px;
+   width: fit-content;
 }
 
 nav a {
@@ -373,6 +374,7 @@ h3 {
 
 /* Events & Exec Board */
 
+
 /* Past Events */
 .events h1 {
     font-family: 'Courier Prime', monospace;
@@ -414,11 +416,31 @@ h3 {
 
 /** Executive Board**/
 .board {
-    width: 100%;
-    padding: 40px;
-    margin: 60px 0;
+
+    position: absolute;
+    align-items: center;
     text-align: center;
-    overflow: visible;
+}
+
+.exec-button{
+    border: none;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    background: #B070D8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F1F1F1;
+    width: 200px;
+}
+
+.board p + p {
+    margin-top: -20px;
 }
 
 .board h1 {
@@ -512,9 +534,9 @@ h3 {
 }
 
 .b-member.four {
-    border: 4px solid #446A60;
-    background-color: #9FF8E1;
-    box-shadow: -10px 10px #446A60;
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
 }
 
 .b-member.five {
@@ -574,11 +596,13 @@ p{font-family: 'Roboto';
 .pics{width: 300px;
     height: 300px;
     overflow: hidden;
+
     object-fit: cover;}
 .webteam {
             text-align: center;
             margin: 50px 0;
         }
+
 .Card1{box-sizing:border-box;
     /*position: absolute;*/
     width: 401px;
