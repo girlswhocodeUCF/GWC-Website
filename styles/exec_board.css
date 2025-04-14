@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar styling */
+nav {
+    background: transparent;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+}
+
+.logo img{
+    max-width: 60%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #78567B;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 768px) {
+.checkbtn {
+    display: block;
+    order: 1;
+    margin-right: 20px;
+}
+
+ul {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-image: url(../images/Background.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+ul li {
+    margin: 20px 0;
+}
+
+ul li a {
+    font-size: 20px;
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
+}
+
+.burger-bar{
+    width: 30px;
+    height: 30px;
+}
+/* end of navbar styling */
+
+body{
+    background-image: url(../images/Background.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.title{
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    color: #303030;
+    font-family: 'Courier Prime', monospace;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.year-title{
+    font-family: 'Courier Prime', monospace;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.board-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+}
+
+.b-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.b-member {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 30%;
+    height: auto;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.name {
+    color: #78567B;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.position {
+    color: #303030;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.one {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
+
+.two {
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.three {
+    border: 4px solid #446A60;
+    background-color: #9FF8E1;
+    box-shadow: -10px 10px #446A60;
+}
+
+.four {
+    border: 4px solid #446A60;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.five {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
+
+
+ 
+ 

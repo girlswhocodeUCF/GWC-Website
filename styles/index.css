@@ -416,7 +416,7 @@ h3 {
 .board {
     width: 100%;
     padding: 40px;
-    margin: 60px 0;
+    margin: 60px 0 5px 0px;
     text-align: center;
     overflow: visible;
 }
@@ -490,6 +490,28 @@ h3 {
     font-size: 18px;
     width: 100%;
     text-align: center;
+}
+.exec-button{
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    background: #B070D8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F1F1F1;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.exec-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /* Board member card styles */
