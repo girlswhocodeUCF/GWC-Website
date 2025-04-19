@@ -1,4 +1,20 @@
-const accessCarousel = () => {
+
+var swiper = new Swiper(".mySwiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+ 
+//  var swiper = new Swiper(".bulletinboard", {
+//     navigation: {
+//         nextEl: ".carousel-button-next",
+//         prevEl: ".carousel-button-prev",
+//     },
+//  });
+
+/* const accessCarousel = () => {
     let carousel = document.getElementsByClassName("carousel");
     let carousel_items = document.getElementsByClassName("image-stack");
     let prev_button = document.getElementById("previous");
@@ -32,3 +48,4 @@ const moveSlide = (direction) =>{
 }
 
 accessCarousel()
+*/

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GWC Trial Website - Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/student-project.css" />
   </head>
   <body>
@@ -181,22 +182,63 @@
         <div class="img-background"></div>
       </div>
     </div>
+
+    <div class="bulletinboard">
+    <div class="outerboard">
+        <div class="swiper mySwiper">
+      
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+              <div class="image-stack">
+                <div class="pin">
+                  <img src="images/purple_pin.webp" class ="push-pin" id="pin-2"/>
+                </div>
+                <div class="project-pics">
+                  <a href ="https://github.com/girlswhocodeUCF/PacMan">
+                    <img src="images/pacman.png" class = "bulletin-projects" id="fp-2" alt="Project 2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="image-stack">
+                <div class="pin">
+                  <img src="images/purple_pin.webp" class="push-pin" id="pin-5"/>
+                </div>
+                <div class="project-pics">
+                  <a href ="https://github.com/girlswhocodeUCF/Javascript-Game">
+                    <img src ="images/javascriptgame-logo.png" class="bulletin-projects" id="fp-5" alt="Project 5"/>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    </div>
+    
+    </div>
+    
   
 
     <!-- Past Projects Bulletin Board -->
      
-    <div class = "semester-title" id = "past-projects"><strong>Past Projects</strong></div>
+    <!-- <div class = "semester-title" id = "past-projects"><strong>Past Projects</strong></div>
 
-    <div class = "bulletinboard">
-      
-      <button class="carousel-button" id="prev">&#8592;</button>
-      <div class="outerboard">
+    <div class = "bulletinboard swiper">
+      <div class="carousel-button-prev">
+        <button class="carousel-button" id="prev">&#8592;</button>
+      </div>
+      <div class="outerboard swiper-wrapper">
         <div class="innerboard">
       
-        <!--Spring 2024 Projects-->
           
-        <!--Moodhacker-->
-        <div class="carousel" id="slide-1">
+        <div class="carousel swiper-slide"id="slide-1">
           <h2 id ="project-title">Spring 2024</h2>
           <div class="image-stack">
             <div class="pin">
@@ -209,7 +251,6 @@
             </div>
           </div>
 
-          <!--Pacman-->
           <div class="image-stack">
             <div class="pin">
               <img src="images/purple_pin.webp" class ="push-pin" id="pin-2"/>
@@ -221,9 +262,7 @@
             </div>
           </div>
 
-          <!--Fall 2023 Projects-->
 
-          <!-- Water Cycle XR-->
           <div class ="image-stack">
             <div class="pin">
               <img src="images/pink_pin.webp" class="push-pin" id="pin-3" />
@@ -235,7 +274,6 @@
             </div>
           </div>
 
-          <!-- ChickFlix-->
           <div class="image-stack">
             <div class="pin">
               <img src="images/pink_pin.webp" class="push-pin" id="pin-4"/>
@@ -247,7 +285,6 @@
             </div>
           </div>
 
-          <!--JavaScript Game-->
           <div class="image-stack">
             <div class="pin">
               <img src="images/purple_pin.webp" class="push-pin" id="pin-5"/>
@@ -259,7 +296,6 @@
             </div>
           </div>
 
-          <!--All-in-one-->
           <div class="image-stack">
             <div class="pin">
               <img src="images/teal_pin.webp" class="push-pin" id="pin-6"/>
@@ -272,9 +308,8 @@
           </div>
         </div>
 
-        <!--Additional Projects-->
 
-        <div class="carousel" id="slide-2">
+        <div class="carousel swiper-slide" id="slide-2">
           <h2 id ="project-title">Spring 2024</h2>
 
           <div class="image-stack">
@@ -348,9 +383,13 @@
       
 
       </div><!--inner-->
-      </div><!--outer-->
-      <button class="carousel-button" id="next">&#8594;</button>
-    </div><!--bulletin-->
+      
+    <!--</div>
+      <div class="carousel-button-next">
+       <button class="carousel-button" id="next">&#8594;</button> 
+      </div>
+      
+    </div>bulletin -->
 
     <!-- Footer Social Media Icons -->
     <footer>
@@ -368,6 +407,8 @@
         </a>
       </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/carousel.js"></script>
+
   </body>
 </html>
