@@ -410,7 +410,7 @@ h3 {
 }
 
 .board p + p {
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 .board h1 {
@@ -424,16 +424,21 @@ h3 {
     box-sizing:border-box;
     display: inline-block;
     width: 267.3px;
-    height: 347.3px;
+    height: 370px;
     border-radius: 15px;
     padding: 2%;
-    margin: 10px;
+    margin: 20px;
 }
 
 .b-member img {
-    width: 208.8px;
-    height: 190.75px;
+    width: 203px;
+    height: 210px;
+    object-fit: cover; /* crop image so not compressed */
+    /* center but don't crop too much of top */
+    object-position: center;
 }
+
+
 
 .name {
     color: #303030;
@@ -454,10 +459,18 @@ h3 {
     box-shadow: -10px 10px #78567b;
 }
 
+.one img {
+    object-position: center 20%;
+}
+
 .two {
-    border: 1px solid #656B5A;
+    border: 4px solid #656B5A;
     background-color: #CEEBA1;
     box-shadow: -10px 10px #656B5A;
+}
+
+.two img {
+    object-position: center bottom;
 }
 
 .three {
@@ -466,16 +479,64 @@ h3 {
     box-shadow: -10px 10px #446A60;
 }
 
+.three img {
+    object-position: center;
+}
+
 .four {
+    border: 4px solid #78567b;
+    background-color: #DFA4E4;
+    box-shadow: -10px 10px #78567b;
+}
+
+.four img {
+    object-position: center bottom;
+}
+
+.five {
     border: 4px solid #446A60;
     background-color: #9FF8E1;
     box-shadow: -10px 10px #446A60;
 }
 
-.five {
+.five img {
+    object-position: center 55%;
+}
+
+.six {
+    border: 4px solid #446A60;
+    background-color: #9FF8E1;
+    box-shadow: -10px 10px #446A60;
+}
+
+.six img {
+    object-position: center bottom;
+}
+
+.six {
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.seven {
     border: 4px solid #78567b;
     background-color: #DFA4E4;
     box-shadow: -10px 10px #78567b;
+}
+
+.seven img {
+    object-position: center 55%;
+}
+
+.eight {
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.eight img {
+    object-position: cente bottom;
 }
 
 /* Section Title */
@@ -499,6 +560,7 @@ h2{font-family: 'Roboto';
     color: #303030;
 }
 
+
 /*Roles*/
 h3{font-family: 'Roboto';
     font-style: normal;
@@ -509,6 +571,8 @@ h3{font-family: 'Roboto';
     align-items: center;
     color: #656B5A;
 }
+
+
 
 /*Majors*/
 p{font-family: 'Roboto';
