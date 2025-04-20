@@ -420,6 +420,7 @@ h3 {
     text-align: center;
     overflow: visible;
 }
+    
 
 .board h1 {
     font-family: 'Courier Prime', monospace;
@@ -464,6 +465,8 @@ h3 {
     object-fit: cover;
     margin-bottom: 25px;
 }
+
+
 
 .name {
     color: #303030;
@@ -521,11 +524,13 @@ h3 {
     box-shadow: -10px 10px #78567b;
 }
 
+
 .b-member.two {
     border: 4px solid #656B5A;
     background-color: #CEEBA1;
     box-shadow: -10px 10px #656B5A;
 }
+
 
 .b-member.three {
     border: 4px solid #446A60;
@@ -543,6 +548,20 @@ h3 {
     border: 4px solid #78567b;
     background-color: #DFA4E4;
     box-shadow: -10px 10px #78567b;
+}
+
+.seven img {
+    object-position: center 55%;
+}
+
+.eight {
+    border: 4px solid #656B5A;
+    background-color: #CEEBA1;
+    box-shadow: -10px 10px #656B5A;
+}
+
+.eight img {
+    object-position: cente bottom;
 }
 
 /* Section Title */
@@ -571,6 +590,7 @@ h2{font-family: 'Roboto';
     color: #303030;
 }
 
+
 /*Roles*/
 h3{font-family: 'Roboto';
     font-style: normal;
@@ -581,6 +601,8 @@ h3{font-family: 'Roboto';
     align-items: center;
     color: #656B5A;
 }
+
+
 
 /*Majors*/
 p{font-family: 'Roboto';
