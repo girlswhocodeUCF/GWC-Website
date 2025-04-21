@@ -9,6 +9,17 @@ img.GWCLogo {
    top: -5px;
 }
 
+body{
+   background-image: url(../images/Background.png);
+   background-repeat: repeat-y;
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+
+}
+
 .about {
    width: 130px;
    height: 77px;
@@ -106,63 +117,6 @@ nav a:hover::after {
    top: 45px
 }
 
-/* Circle Color Area */
-
-.circle {
-   display: flex;
-   gap: 2em;
-   margin: 2em;
-}
-
-.purpleTopLeft {
-   position: absolute;
-   width: 509px;
-   height: 484.87px;
-   left: -130px;
-   top: 200px;
-
-   background: rgba(197, 181, 223, 0.7);
-   filter: blur(110px);
-   transform: rotate(-44.52deg);
-}
-
-.blueRight {
-   position: absolute;
-   width: 618.75px;
-   height: 626.52px;
-   left: 860.38px;
-   top: 300px;
-   background: rgba(147, 238, 248, 0.5);
-   filter: blur(108.5px);
-   transform: rotate(-44.52deg);
-   border-radius: 50%;
-}
-
-.greenMiddle {
-   position: absolute;
-   width: 605.73px;
-   height: 613.33px;
-   left: -240px;
-   top: 981.68px;
-
-   background: rgba(206, 235, 161, 0.6);
-   filter: blur(108.5px);
-   transform: rotate(-44.52deg);
-   border-radius: 50%;
-}
-
-.purpleBottomLeft {
-   position: absolute;
-   width: 777.41px;
-   height: 740.55px;
-   left: 465px;
-   top: 1526.06px;
-
-   background: rgba(197, 181, 223, 0.7);
-   filter: blur(108.5px);
-   transform: rotate(-44.52deg);
-}
-
 hr {
    position: absolute;
    width: 1251px;
@@ -220,6 +174,7 @@ h1 {
    text-align: center;
    font-family: 'Courier Prime', monospace;
    font-style: italic;
+   padding-top: 40px;
 }
 
 .project {

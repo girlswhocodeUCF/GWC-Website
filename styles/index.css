@@ -12,6 +12,16 @@ html, body {
 body {
     max-width: 100vw;
 }
+body{
+    background-image: url(../images/Background.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
 img.GWCLogo{
 	position: absolute;
 	width: 139px;
@@ -69,61 +79,6 @@ nav a:hover::after {
     width: 100%;
 }
 
-.circle {
-   display: flex;
-   gap: 2em;
-   margin: 2em;
-}
-
-.purpleTopLeft {
-   position: absolute;
-   width: 509px;
-   height: 484.87px;
-   left: -130px;
-   top: 200px;
-   z-index: -1;
-   background: rgba(197, 181, 223, 0.7);
-   filter: blur(110px);
-   transform: rotate(-44.52deg);
-}
-
-.blueRight {
-   position: absolute;
-   width: 618.75px;
-   height: 626.52px;
-   left: 860.38px;
-   top: 300px;
-   z-index: -1;
-   background: rgba(147, 238, 248, 0.5);
-   filter: blur(108.5px);
-   transform: rotate(-44.52deg);
-   border-radius: 50%;
-}
-
-.greenMiddle {
-   position: absolute;
-   width: 605.73px;
-   height: 613.33px;
-   left: -240px;
-   top: 981.68px;
-   z-index: -1;
-   background: rgba(206, 235, 161, 0.6);
-   filter: blur(108.5px);
-   transform: rotate(-44.52deg);
-   border-radius: 50%;
-}
-
-.purpleBottomLeft {
-   position: absolute;
-   width: 777.41px;
-   height: 740.55px;
-   left: 465px;
-   top: 1526.06px;
-   z-index: -1;
-   background: rgba(197, 181, 223, 0.7);
-   filter: blur(108.5px);
-   transform: rotate(-44.52deg);                
-}
 
 hr {
     position: absolute;
@@ -410,6 +365,14 @@ h3 {
     height: 412px;
     border-radius: 20px;
     margin: 12px;
+}
+
+
+.insta{
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 

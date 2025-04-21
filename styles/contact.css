@@ -9,6 +9,17 @@ img.GWCLogo {
   top: -5px;
 }
 
+body{
+  background-image: url(../images/Background.png);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
 .about {
   width: 130px;
   height: 77px;
