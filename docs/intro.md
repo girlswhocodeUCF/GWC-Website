@@ -8,7 +8,20 @@ All [images](../images), [scripts](../scripts) (for the carousel feature on the 
 [GitHub Page](https://girlswhocodeucf.github.io/GWC-Website/index.html)
 
 ### About/Home Page
-- tagembed on index page (https://app.tagembed.com/home) (add code line for context)[^1]
+- Tagembed to display past events (edit at the link [here](https://app.tagembed.com/home)) [^1]
+```
+ <!--GROUP 2 - PAST EVENTS & EXECUTIVE BOARD-->
+
+    <div class="events">
+      <h1>Check Out Our Past Events!</h1>
+      <div class="insta">
+        <div class="tagembed-widget" data-widget-id="2165019" data-tags="false"  view-url="https://widget.tagembed.com/2165019"></div><script src="https://widget.tagembed.com/embed.min.js" type="text/javascript"></script>
+      </div>
+      
+    </div>
+```
+###### (lines 82-90)
+
 - update e-board 
 ### Events Page
 - behold feed (https://app.behold.so/feeds) [^1]
