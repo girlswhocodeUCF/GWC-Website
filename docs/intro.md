@@ -8,7 +8,7 @@ All [images](../images), [scripts](../scripts) (for the carousel feature on the 
 [GitHub Page](https://girlswhocodeucf.github.io/GWC-Website/index.html)
 
 ### About/Home Page
-- Tagembed to display past events (edit at the link [here](https://app.tagembed.com/home)) [^1]
+- carousel from Tagembed to display past events (edit at the link [here](https://app.tagembed.com/home)) [^1]
 ```
  <!--GROUP 2 - PAST EVENTS & EXECUTIVE BOARD-->
 
@@ -20,20 +20,43 @@ All [images](../images), [scripts](../scripts) (for the carousel feature on the 
       
     </div>
 ```
-###### (lines 82-90)
+###### (index.html - lines 82-90)
 
-- update e-board 
+- make sure to update the executive board yearly and add the old executive board to the past exec page (exex_board.html)
 ### Events Page
-- behold feed (https://app.behold.so/feeds) [^1]
-- styled calendar (https://app.styledcalendar.com/calendars/vkeEDLrSvixWMvuAlYxn/edit) [^1]
+- carousel from Behold to list upcoming events (edit at the link [here](https://app.behold.so/feeds)) [^1]
+```
+    <!--UPCOMING EVENTS-->
+    <h1 class="section-title">Upcoming Events this Semester</h1>
+    <div class="posts">
+        <body>
+          <behold-widget feed-id="Xjhq55oR1hbuanp9zSrn"></behold-widget>
+          <script>
+            if ('noModule' in HTMLScriptElement.prototype) {
+              const d=document,s=d.createElement('script');s.type='module';
+              s.src='https://w.behold.so/widget.js';d.body.appendChild(s);
+            }
+          </script>
+        </body>
+    </div>
+```
+###### (events.html - lines 30-42)
+- calendar linked to Google calendar listing dates of events (edit at the link [here](https://app.styledcalendar.com/calendars/vkeEDLrSvixWMvuAlYxn/edit)) [^1]
+```
+     <iframe src="https://embed.styledcalendar.com/#vkeEDLrSvixWMvuAlYxn" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
+<script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+```
+###### (events.html - lines 44-45)
 ### Student Projects
-- update the projects semesterly and use carousel to add more projects (swiper function)
+- update the projects semesterly and use carousel to add more projects (current carousel function in carousel.js)
 ### Gallery
-- https://app.behold.so/feeds [^1]
+- carousel from Behold displaying all posts with specific tags (edit at the link [here](https://app.behold.so/feeds)) [^1]
+    * must work with social media to make sure that there is a cohesive tag for all posts that will go here 
 
 ### FAQ/Contact Page
-- google form linked to question form (https://docs.google.com/forms/d/1d3OpxU544Jnh3Qlo6QiHSDOYPjERGDvFQ4bBD_LiHgY/edit) [^1]
-Feel free to change the features to better suit the club in the future and make sure to update the document for future teams :)
+- question form that links to Google form (edit at the link [here](https://docs.google.com/forms/d/1d3OpxU544Jnh3Qlo6QiHSDOYPjERGDvFQ4bBD_LiHgY/edit)) [^1]
+
+### Feel free to change the features to better suit the club in the future and make sure to update the document for future teams :)
 ## Future Ideas
 We would love to port this project to React in the future.
 
